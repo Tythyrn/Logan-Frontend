@@ -1,0 +1,31 @@
+{
+  "title": "MOOD BOARDS",
+  "overview": "**NEED THIS**",
+  "deliverables": "**NEED THIS",
+  "descriptors": "**NEED THIS",
+  "heroImage": [
+    {
+      "url": "/images/motion-graphics/moodboards/moodHero.jpg",
+      "alt": "Mood Board alternative for mision to mars"
+    }
+  ],
+  "imageSet": [
+    {
+      "id": "1",
+      "url": "/images/motion-graphics/moodboards/moodHero.jpg",
+      "alt": "Head with different symbols and icons inside"
+    },
+    {
+      "id": "2",
+      "url": "/images/motion-graphics/moodboards/mood1.jpg",
+      "alt": "Mood board 1 for Sprint"
+    },
+    {
+      "id": "3",
+      "url": "/images/motion-graphics/moodboards/mood2.jpg",
+      "alt": "Mood board 2 for Sprint"
+    }
+  ],
+  "slug": "mood-boards",
+  "metaDescription": "Mood boards created by Logan Rundquist"
+}

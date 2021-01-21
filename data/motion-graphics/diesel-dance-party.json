@@ -1,0 +1,31 @@
+{
+  "title": "DIESEL DANCE PARTY",
+  "overview": "This project through school of motion focused on merging two brand ideas: electronic dance music culture and the fashion brand Diesel. We had the assignment to create frames with a title lockup with their branding, but had creative reign to take the images in any creative direction we chose.\n\n*created through School of Motion. For educational purposes only.",
+  "deliverables": "- 4-6 Design Boards showing us the look and feel of the spot + a rough idea of the structure of the commercial.\n- The spot should feature the names of the 3 biggest acts on the bill.\n- There needs to be an end-card with festival logo, URL, dates and location info for the show.\n- Imagery should reflect our brand voice.",
+  "descriptors": "- The show is being held at The Loft in Barcelona, Spain\n- The dates of the festival are September 14-16\n- The URL for more information is dieseldanceplanet.com\n- We will provide the festival logo\n- The bandits to feature are: DJ Cone, GreyScale, Legion Van Dijk",
+  "heroImage": [
+    {
+      "url": "/images/motion-graphics/diesel/diesel-hero.jpg",
+      "alt": "Woman standing in spotlight"
+    }
+  ],
+  "imageSet": [
+    {
+      "id": "1",
+      "url": "/images/motion-graphics/diesel/diesel-hero.jpg",
+      "alt": "Woman standing in spotlight"
+    },
+    {
+      "id": "2",
+      "url": "/images/motion-graphics/diesel/diesel1.jpg",
+      "alt": "People at concert"
+    },
+    {
+      "id": "3",
+      "url": "/images/motion-graphics/diesel/diesel2.jpg",
+      "alt": "6 Design Boards showing flow of commercial"
+    }
+  ],
+  "slug": "diesel-dance-party",
+  "metaDescription": "School of Motion Diesel Dance Party Project"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "MISSION TO MARS",
+  "overview": "This project was for a “NASA documentary” and we had been given a rough cut of their television advertisement. Our assignment was to create a text lockup as well as transition frames to go along with their story. \n\n*created through School of Motion. For educational purposes only.",
+  "deliverables": "- 4-6 Design Boards based on the Style you choose from the last exercise.\n- The boards must show footage treatment, full-screen title cards, show title + tune-in screen, and NASA TV logo.",
+  "descriptors": "- The full name of the show is Expedition 100: Mission to Mars\n- The tune-in information is: Premieres Sunday at 9pm\n- The demographic for the show is 25-65 skewed male\n- We want this to feel dangerous, awe-inspiring, cinematic.\n- We don’t have a logo for this show yet, so use the Expedition 44 one and modify it.",
+  "heroImage": [
+    {
+      "url": "/images/motion-graphics/missiontomars/missionHero.jpg",
+      "alt": "Expedition 100 starting frame"
+    }
+  ],
+  "imageSet": [
+    {
+      "id": "1",
+      "url": "/images/motion-graphics/missiontomars/missionHero.jpg",
+      "alt": "Expedition 100 starting frame"
+    },
+    {
+      "id": "2",
+      "url": "/images/motion-graphics/missiontomars/mission1.jpg",
+      "alt": "Alternative frame for Expedition 1000"
+    },
+    {
+      "id": "3",
+      "url": "/images/motion-graphics/missiontomars/mission2.jpg",
+      "alt": "Mission to mars frame"
+    },
+    {
+      "id": "4",
+      "url": "/images/motion-graphics/missiontomars/mission3.jpg",
+      "alt": "All frames board"
+    }
+  ],
+  "slug": "mission-to-mars",
+  "metaDescription": "School of Motion Mission to Mars Project"
+}

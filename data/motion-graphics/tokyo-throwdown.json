@@ -1,0 +1,26 @@
+{
+  "title": "TOKYO THROWDOWN",
+  "overview": "**NEED THIS**",
+  "deliverables": "- Design Boards (probably 4-6) that show us what the Show Open will look like.\n- These boards must show us how you’ll treat green-screened footage of the dancers, how you’ll ID the names of the Dance Teams, what the Title will look like, and how you will incorporate the Fox logo into the design.",
+  "descriptors": "- The full name of the show is Urban Freestyle: Tokyo Throwdown\n- The demographic for the show is Males & Females 18-50\n- This is a primetime show\n- We want this to feel “sexy” and to be inspired by the show’s unique location\n- Use this information as placeholder for showing us how you’ll treat the Dance Team names Roboto Crew (Axel, Lilian, Toshi)",
+  "heroImage": [
+    {
+      "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
+      "alt": "Woman dancing behind bright background"
+    }
+  ],
+  "imageSet": [
+    {
+      "id": "1",
+      "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
+      "alt": "Woman dancing in front of bright background"
+    },
+    {
+      "id": "2",
+      "url": "/images/motion-graphics/tokyothrowdown/tokyo1.jpg",
+      "alt": "Man dancing in front of bright background"
+    }
+  ],
+  "slug": "tokyo-throwdown",
+  "metaDescription": "School of Motion Tokyo Throwdown Project"
+}

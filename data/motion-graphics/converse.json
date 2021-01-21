@@ -1,0 +1,26 @@
+{
+  "title": "Converse",
+  "overview": "**NEED THIS**",
+  "deliverables": "- 3-4 Style Frames / Boar d s show ing us the progr e ssion of the Logo Reveal\n- The l ogo should re solve with our Tagline, as well as social media icons.",
+  "descriptors": "- Our tagline is: Shoes are Boring. Wear Sneakers.\n- Our core demographic is 15-35 , Male and Female.\n- We have a social media presence on Facebook, Twitter, Instagram, Pinterest, Vine, and Google+. Feature those icons.",
+  "heroImage": [
+    {
+      "url": "/images/motion-graphics/converse/converseHero.jpg",
+      "alt": "Man Dancing on Converse Logo"
+    }
+  ],
+  "imageSet": [
+    {
+      "id": "1",
+      "url": "/images/motion-graphics/converse/converseHero.jpg",
+      "alt": "Man Dancing on Converse Logo"
+    },
+    {
+      "id": "2",
+      "url": "/images/motion-graphics/converse/converse1.jpg",
+      "alt": "All boards of Converse Project"
+    }
+  ],
+  "slug": "converse",
+  "metaDescription": "School of Motion Converse Project"
+}

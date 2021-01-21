@@ -1,0 +1,31 @@
+{
+  "title": "IBM",
+  "overview": "**NEED THIS**",
+  "deliverables": "- The entire spot must be boarded out and must go along with the script.\n- The spot should end with the SmartCity type featured along with the URL.",
+  "descriptors": "- The demo is 18-65 M/F\n- At the end of the spot we should direct folks to the url: : IBM.com/smartcity\n- We really need to make this feel friendly... this technology could be seen as intrusive, so let’s use the design to help reinforce the idea that this is safe and to be used for good.\n- Check out our brand guidelines and other work to stay on-brand.\n- Our brand guide can be found at https://www.ibm.com/design/language/",
+  "heroImage": [
+    {
+      "url": "/images/motion-graphics/ibm/ibmHero.jpg",
+      "alt": "Head with different symbols and icons inside"
+    }
+  ],
+  "imageSet": [
+    {
+      "id": "1",
+      "url": "/images/motion-graphics/ibm/ibmHero.jpg",
+      "alt": "Head with different symbols and icons inside"
+    },
+    {
+      "id": "2",
+      "url": "/images/motion-graphics/ibm/ibm1.jpg",
+      "alt": "City bending on verge of collapse"
+    },
+    {
+      "id": "3",
+      "url": "/images/motion-graphics/ibm/ibm2.png",
+      "alt": "All boards of IBM Project"
+    }
+  ],
+  "slug": "ibm",
+  "metaDescription": "School of Motion IBM Project"
+}
