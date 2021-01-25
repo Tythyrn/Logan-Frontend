@@ -1,31 +1,37 @@
 {
   "title": "PREMIUMBEAT.COM",
-  "overview": "This was our final project of the course, and definitely required the most amount of frames created. Here, we had a voiceover given to us and we needed to make visuals complement it. We could take it in any creative direction we chose. On my image of all my frames, I have listed out what phrases go with which images. We were given Premium Beat’s brand PDF, in which we stuck to their color pallet and font requirements.\n\n*created through School of Motion. For educational purposes only.",
-  "deliverables": "- The entire spot must be boarded out and must go along with the script\n- The spot should end with the PremiumBeat logo and URL (premiumbeat.com)",
-  "descriptors": "- The demo is 18-65 M/F\n- This spot will run online in various places such as YouTube pre-roll, Facebook video ads, Twitter ads...\n- We are targeting content producers, Editors, Motion Designers, YouTubers, Podcasters, hobbyists...\n- At the end of the spot we should direct folks to the url: premiumbeat.com\n-Check out our site and brand guidelins (included) for examples of our brand voice and tone\n- The Art Direction is totally up to you. We've provided footage and stills to use if you think they work, but a fully animated approach could work as well.\n- The script is provided on page 2",
+  "overview": "<p>This was our final project of the course, and required the most amount of frames created. Here, we had a voiceover given to us and we needed to make visuals complement it. We could take it in any creative direction we chose. On my image of all my frames, I have listed out what phrases go with which images. We were given Premium Beat’s brand PDF, in which we stuck to their color pallet and font requirements.</p><p>*created through School of Motion. For educational purposes only.</p>",
+  "deliverables": "<ul><li>The entire spot must be boarded out and must go along with the script.</li><li>The spot should end with the PremiumBeat logo and URL (premiumbeat.com)</li></ul>",
+  "descriptors": "<ul><li>Targeting content producers. Editors, Motion Designers, YouTubers, Podcasters, hobbyists...</li><li>Check out our site and brand guidelines (included) for examples of our brand voice and tone</li><li>The Art Direction is totally up to you, and the script is provided</li></ul>",
+  "projects": [
+    {
+      "id": "1",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/motion-graphics/premiumbeat/beatHero.jpg",
+          "alt": "Woman Dancing"
+        },
+        {
+          "id": "2",
+          "url": "/images/motion-graphics/premiumbeat/beat1.jpg",
+          "alt": "Premium beat logo"
+        },
+        {
+          "id": "3",
+          "url": "/images/motion-graphics/premiumbeat/beat2.jpg",
+          "alt": "All frames board"
+        }
+      ]
+    }
+  ],
   "heroImage": [
     {
       "url": "/images/motion-graphics/premiumbeat/beatHero.jpg",
       "alt": "Woman dancing"
     }
   ],
-  "imageSet": [
-    {
-      "id": "1",
-      "url": "/images/motion-graphics/premiumbeat/beatHero.jpg",
-      "alt": "Woman Dancing"
-    },
-    {
-      "id": "2",
-      "url": "/images/motion-graphics/premiumbeat/beat1.jpg",
-      "alt": "Premium beat logo"
-    },
-    {
-      "id": "3",
-      "url": "/images/motion-graphics/premiumbeat/beat2.jpg",
-      "alt": "All frames board"
-    }
-  ],
   "slug": "premium-beat",
-  "metaDescription": "School of Motion premiumbeat.com Project"
+  "metaDescription": "Logan Rundquist's School of Motion premiumbeat.com Project",
+  "metaTitle": "Premium Beat"
 }

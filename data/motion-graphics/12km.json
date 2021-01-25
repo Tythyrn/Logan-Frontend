@@ -1,26 +1,32 @@
 {
   "title": "12KM",
-  "overview": "**NEED THIS**",
-  "deliverables": "- 4-6 Design Boards showing the design of the opening Title Card, the transition to footage, a couple of fullframe shots from the trailer, a transition frame, and the end card.\n- The end card must use the film’s logo (provided), and must feature “A Film by Mike Pecci” and the URL, 12kilometers.com",
-  "descriptors": "- The film is a throwback to 1980’s horror movies like The Thing. It’s dark, creepy, and has an ominous tone throughout. The trailer GFX should reflect that.\n- 12KM was shot 2K with anamorphic lenses. Graphics should be designed for a 2048x768 format.\n- We loooooove the color-grade on the film, so don’t mess with colors (unless for a transition.)\n- We like Mike’s direction, but do something different. Similar, but different.",
+  "overview": "<p>12 Kilometers was a horror film directed by Mike Pecci. The “client” required a theatrical trailer for the film. Mike has cut a trailer, but it needs to be spiced up with some Design. Specifically, the opening title card and end card need to be designed, and include transitions from GFX to footage and back.</p><p>The video footage we were provided were shots of scientists underground who either find a creature as they’re drilling for something, or they have an experiment go wrong and it begins to devour the scientists.</p><p>*created through School of Motion. For educational purposes only.</p>",
+  "deliverables": "<ul><li>4-6 Design Boards showing the design of the opening Title Card, the transition to footage, a couple of full- frame shots from the trailer, a transition frame, and the end card.</li><li>The end card must use the film’s logo (provided), and must feature “A Film by Mike Pecci” and the URL, 12kilometers.com</li></ul>",
+  "descriptors": "<ul><li>The film is a throwback to 1980’s horror movies like The Thing. It’s dark, creepy, and has an ominous tone throughout. The trailer GFX should reflect that.</li><li>12KM was shot 2K with anamorphic lenses. Graphics should be designed for a 2048x768 format.</li><li>Work with the original color-grade on the film</li></ul>",
+  "projects": [
+    {
+      "id": "1",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/motion-graphics/12km/12kmHero.jpg",
+          "alt": "12KM Title image"
+        },
+        {
+          "id": "2",
+          "url": "/images/motion-graphics/12km/12km1.jpg",
+          "alt": "All boards of 12KM project"
+        }
+      ]
+    }
+  ],
   "heroImage": [
     {
       "url": "/images/motion-graphics/12km/12kmHero.jpg",
       "alt": "12KM Title image"
     }
   ],
-  "imageSet": [
-    {
-      "id": "1",
-      "url": "/images/motion-graphics/12km/12kmHero.jpg",
-      "alt": "12KM Title image"
-    },
-    {
-      "id": "2",
-      "url": "/images/motion-graphics/12km/12km1.jpg",
-      "alt": "All boards of 12KM project"
-    }
-  ],
   "slug": "12km",
-  "metaDescription": "School of Motion 12KM Project"
+  "metaDescription": "Logan Rundquist's School of Motion 12KM Project",
+  "metaTitle": "12KM"
 }

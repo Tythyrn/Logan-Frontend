@@ -1,31 +1,35 @@
 {
   "title": "MOOD BOARDS",
-  "overview": "**NEED THIS**",
-  "deliverables": "**NEED THIS",
-  "descriptors": "**NEED THIS",
+  "overview": "<p>We worked with mood boards to help us come up with ideas for the projects</p>",
+  "projects": [
+    {
+      "id": "1",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/motion-graphics/moodboards/moodHero.jpg",
+          "alt": "Head with different symbols and icons inside"
+        },
+        {
+          "id": "2",
+          "url": "/images/motion-graphics/moodboards/mood1.jpg",
+          "alt": "Mood board 1 for Sprint"
+        },
+        {
+          "id": "3",
+          "url": "/images/motion-graphics/moodboards/mood2.jpg",
+          "alt": "Mood board 2 for Sprint"
+        }
+      ]
+    }
+  ],
   "heroImage": [
     {
       "url": "/images/motion-graphics/moodboards/moodHero.jpg",
       "alt": "Mood Board alternative for mision to mars"
     }
   ],
-  "imageSet": [
-    {
-      "id": "1",
-      "url": "/images/motion-graphics/moodboards/moodHero.jpg",
-      "alt": "Head with different symbols and icons inside"
-    },
-    {
-      "id": "2",
-      "url": "/images/motion-graphics/moodboards/mood1.jpg",
-      "alt": "Mood board 1 for Sprint"
-    },
-    {
-      "id": "3",
-      "url": "/images/motion-graphics/moodboards/mood2.jpg",
-      "alt": "Mood board 2 for Sprint"
-    }
-  ],
   "slug": "mood-boards",
-  "metaDescription": "Mood boards created by Logan Rundquist"
+  "metaDescription": "Mood boards created by Logan Rundquist",
+  "metaTitle": "Mood Boards"
 }

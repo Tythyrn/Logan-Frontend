@@ -1,26 +1,32 @@
 {
   "title": "TOKYO THROWDOWN",
-  "overview": "**NEED THIS**",
-  "deliverables": "- Design Boards (probably 4-6) that show us what the Show Open will look like.\n- These boards must show us how you’ll treat green-screened footage of the dancers, how you’ll ID the names of the Dance Teams, what the Title will look like, and how you will incorporate the Fox logo into the design.",
-  "descriptors": "- The full name of the show is Urban Freestyle: Tokyo Throwdown\n- The demographic for the show is Males & Females 18-50\n- This is a primetime show\n- We want this to feel “sexy” and to be inspired by the show’s unique location\n- Use this information as placeholder for showing us how you’ll treat the Dance Team names Roboto Crew (Axel, Lilian, Toshi)",
+  "overview": "<p>This was our first project. Fox is launching a new show called Urban Freestyle: Tokyo Throwdown. We are looking for a Show Open design, as well as a Title Design for the show.</p><p>*created through School of Motion. For educational purposes only.</p>",
+  "deliverables": "<ul><li>Design Boards (4-6) that show us what the Show Open will look like.</li><li>These boards must show us how you’ll treat green-screened footage of the dancers, how you’ll ID the names of the Dance Teams, what the Title will look like, and how you will incorporate the Fox logo into the design.</li></ul>",
+  "descriptors": "<ul><li>The show is a Dance-Competition that takes place in Tokyo, Japan. Teams of break dancers compete each week on the streets of Tokyo in head-to- head dance battles.</li><li>We want this to feel “sexy” and to be inspired by the show’s unique location</li></ul>",
+  "projects": [
+    {
+      "id": "1",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
+          "alt": "Woman dancing in front of bright background"
+        },
+        {
+          "id": "2",
+          "url": "/images/motion-graphics/tokyothrowdown/tokyo1.jpg",
+          "alt": "Man dancing in front of bright background"
+        }
+      ]
+    }
+  ],
   "heroImage": [
     {
       "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
       "alt": "Woman dancing behind bright background"
     }
   ],
-  "imageSet": [
-    {
-      "id": "1",
-      "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
-      "alt": "Woman dancing in front of bright background"
-    },
-    {
-      "id": "2",
-      "url": "/images/motion-graphics/tokyothrowdown/tokyo1.jpg",
-      "alt": "Man dancing in front of bright background"
-    }
-  ],
   "slug": "tokyo-throwdown",
-  "metaDescription": "School of Motion Tokyo Throwdown Project"
+  "metaDescription": "Logan Rundquist's School of Motion Tokyo Throwdown Project",
+  "metaTitle": "Tokyo Throwdown"
 }

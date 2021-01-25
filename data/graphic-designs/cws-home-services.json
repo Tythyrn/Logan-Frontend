@@ -1,0 +1,82 @@
+{
+  "title": "CWS Home Services",
+  "overview": "<p>CWS Corporate Housing and CWS Home Services were sister companies that required both print and digital assets, I stuck to brand guidelines and produced work to reflect their brands. Print work included brochures, flyers, and handouts; while the digital work included social media graphics, comps for advertisements, advertisements, slide decks and website content.</p>",
+  "deliverables": "<ul><li>Branding</li><li>Digital Assets</li><li>Powerpoints</li><li>DPrint</li><li>Marketing Items</li></ul>",
+  "descriptors": "<ul><li>Extra projects outside the brand included wearable graphics and Holiday cards</li></ul>",
+  "projects": [
+    {
+      "id": "1",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/graphic-designs/cws/cws1.JPG",
+          "alt": "Home Services"
+        },
+        {
+          "id": "2",
+          "url": "/images/graphic-designs/cws/cws2.JPG",
+          "alt": "Home Services Brochure"
+        },
+        {
+          "id": "3",
+          "url": "/images/graphic-designs/cws/cws3.jpg",
+          "alt": "Home Services Banner"
+        },
+        {
+          "id": "4",
+          "url": "/images/graphic-designs/cws/cws4.png",
+          "alt": "Home Services Newsletter"
+        },
+        {
+          "id": "5",
+          "url": "/images/graphic-designs/cws/cws5.jpg",
+          "alt": "Home Services Hello and Welcome"
+        },
+        {
+          "id": "6",
+          "url": "/images/graphic-designs/cws/cws6.jpg",
+          "alt": "Home Services State of Company Tee"
+        },
+        {
+          "id": "7",
+          "url": "/images/graphic-designs/cws/cws7.jpeg",
+          "alt": "Home Services Gift Tag"
+        },
+        {
+          "id": "8",
+          "url": "/images/graphic-designs/cws/cws8.png",
+          "alt": "Home Services Graphic"
+        },
+        {
+          "id": "9",
+          "url": "/images/graphic-designs/cws/cws9.png",
+          "alt": "Home Services Extra Bed Linens"
+        },
+        {
+          "id": "10",
+          "url": "/images/graphic-designs/cws/cws10.jpg",
+          "alt": "Home Services Apartment Setup"
+        },
+        {
+          "id": "11",
+          "url": "/images/graphic-designs/cws/cws11.png",
+          "alt": "Home Services Christmas"
+        },
+        {
+          "id": "12",
+          "url": "/images/graphic-designs/cws/cws12.JPG",
+          "alt": "Home Services Christmas"
+        }
+      ]
+    }
+  ],
+  "heroImage": [
+    {
+      "url": "/images/graphic-designs/cws/cwsHero.png",
+      "alt": "CWS Hero Image"
+    }
+  ],
+  "slug": "cws-home-services",
+  "metaDescription": "Logan Rundquist's Graphic Design work for CWS Home Services",
+  "metaTitle": "CWS Home Services"
+}

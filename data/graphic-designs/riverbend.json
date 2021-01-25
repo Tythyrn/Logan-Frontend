@@ -1,0 +1,91 @@
+{
+  "title": "Riverbend",
+  "overview": "<p>Riverbend church asked me to help their creative team out first in 2019 on graphics creation and brainstorming for sermon series artwork. This artwork is released both in print and digital to mark the beginning of new sermons, advertise on social media as well as supplement videos they show during services.</p>",
+  "deliverables": "<ul><li>One hero design for individual sermon series, and then these are converted into various sizes for their other needs (social media, email headers, large video format, print, etc.)</li></ul>",
+  "descriptors": "<ul><li>All designs were created by Shavanna with contributions from myself and Tylyn (on staff at Riverbend), with exception to Finding Harmony- I created that artwork myself.</li></ul>",
+  "projects": [
+    {
+      "id": "1",
+      "title": "Finding Harmony",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/graphic-designs/riverbend/harmony/harmony1.jpg",
+          "alt": "Finding Harmony Comp"
+        },
+        {
+          "id": "2",
+          "url": "/images/graphic-designs/riverbend/harmony/harmony2.jpg",
+          "alt": "Finding Harmony Sketches"
+        },
+        {
+          "id": "3",
+          "url": "/images/graphic-designs/riverbend/harmony/harmony3.jpg",
+          "alt": "Finding Harmony Final Render"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Stay Liminal",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/graphic-designs/riverbend/liminal/liminal1.jpg",
+          "alt": "Stay Liminal Font Pairings"
+        },
+        {
+          "id": "2",
+          "url": "/images/graphic-designs/riverbend/liminal/liminal2.png",
+          "alt": "Stay Liminal Final Render"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Physics of Faith",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/graphic-designs/riverbend/physics/physics1.jpg",
+          "alt": "Physics of Faith Comp"
+        },
+        {
+          "id": "2",
+          "url": "/images/graphic-designs/riverbend/physics/physics2.png",
+          "alt": "Physics of Faith Final Render"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Square One",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/graphic-designs/riverbend/square/square1.jpg",
+          "alt": "Square One Fonts"
+        },
+        {
+          "id": "2",
+          "url": "/images/graphic-designs/riverbend/square/square2.jpg",
+          "alt": "Square One Comp"
+        },
+        {
+          "id": "3",
+          "url": "/images/graphic-designs/riverbend/square/square3.png",
+          "alt": "Square One Final Render"
+        }
+      ]
+    }
+  ],
+  "heroImage": [
+    {
+      "url": "/images/graphic-designs/riverbend/harmony/harmony3.jpg",
+      "alt": "Man Dancing on Converse Logo"
+    }
+  ],
+  "slug": "riverbend",
+  "metaDescription": "Logan Rundquist's Riverbend Volunteer Designs",
+  "metaTitle": "Riverbend"
+}

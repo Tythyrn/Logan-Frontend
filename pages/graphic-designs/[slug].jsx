@@ -1,69 +1,65 @@
 import Layout from '../../components/Layout';
-import processMarkdown from '../../lib/processMarkdown';
 import baguetteBox from '../../lib/baguetteBox.js'
 import {getAllProjects, getProjectBySlug} from '../../lib/api/graphicApi';
 import {useEffect} from 'react'
 import Head from 'next/head'
 
-const GraphicDesign = ({ heroImage, title, overview, deliverables, descriptors, projectImages, metaDescription  }) => {
+const GraphicDesign = ({ caseStudy }) => {
 
   useEffect(() => {
-    function baguette () {
-      baguetteBox.run('.gallery');
-    }
-
-    window.addEventListener('load', baguette); 
-
-    return function cleanup() {
-      window.removeEventListener('load', baguette);
-    };
-  }, []);
+    baguetteBox.run('.gallery');
+  });
 
   return (
     <Layout>
       <Head>
-        <title>{title}</title>
-        <meta name="description" content={metaDescription}/>
+        <title>{caseStudy.metaTitle}</title>
+        <meta name="description" content={caseStudy.metaDescription}/>
       </Head>
       <div className="headerImage">
-        <img src={heroImage.url} className="main-img" alt={heroImage.alt}/>
+        <img src={caseStudy.heroImage[0].url} className="main-img" alt={caseStudy.heroImage[0].alt}/>
       </div>
       <section className="project-information">
         <div className="overview">
-          <h1 className="project-header">{title}</h1>
-          <div className="project-overview" dangerouslySetInnerHTML={{ __html: overview }}/>
+          <h1 className="project-header">{caseStudy.title}</h1>
+          <div className="project-overview" dangerouslySetInnerHTML={{ __html: caseStudy.overview }}/>
         </div>
         <div className="clearfix">
-          {deliverables ? 
+          {caseStudy.deliverables ? 
             <div className="deliverables">
               <h2>Deliverables</h2>
-              <div dangerouslySetInnerHTML={{ __html: deliverables }}/>
+              <div dangerouslySetInnerHTML={{ __html: caseStudy.deliverables }}/>
             </div>
             :
             ''
           }
-          {descriptors ?
+          {caseStudy.descriptors ?
             <div className="descriptors">
-              <h2>Descriptors</h2>
-              <div dangerouslySetInnerHTML={{ __html: descriptors }}/>
+              <h2>Additional Project Information</h2>
+              <div dangerouslySetInnerHTML={{ __html: caseStudy.descriptors }}/>
             </div>
             :
             ''
           }
         </div>
-        <div className="gallery">
-          {projectImages.map(image => (
-            <div className="port-image-container" key={image.id}>
-              <a href={image.url} className="port-image-links">
-                  <img 
-                      src={image.url}
-                      alt={image.alt}
-                      className="port-images"
-                  />
-              </a>
+        {caseStudy.projects.map(project => (
+          <div className="project-gallery" key={project.id}>
+            {project.title ? <h1>{project.title}</h1> : ''}
+            <div className="gallery">
+              {project.imageSet.map(image => (
+                <div className="port-image-container" key={image.id}>
+                  <a href={image.url} className="port-image-links">
+                      <img 
+                        src={image.url}
+                        alt={image.alt}
+                        className="port-images"
+                      />
+                  </a>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </section>
     </Layout>
   );
@@ -81,20 +77,11 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params }) {
-  const project = getProjectBySlug(params.slug);
-  const overview = await processMarkdown(project.overview);
-  const deliverables = await processMarkdown(project.deliverables);
-  const descriptors = await processMarkdown(project.descriptors);
+  const caseStudy = getProjectBySlug(params.slug);
   
   return {
     props: { 
-      title: project.title,
-      heroImage: project.heroImage[0],
-      overview,
-      deliverables,
-      descriptors,
-      projectImages: project.imageSet,
-      metaDescription: project.metaDescription
+      caseStudy,
     },
     revalidate: 300,
   };

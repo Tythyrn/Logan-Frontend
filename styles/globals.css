@@ -13,7 +13,6 @@
 
 ul li {
   margin-left: 1em;
-  font-size: 0.9em;
   padding-bottom: 5px;
 }
 
@@ -80,7 +79,6 @@ p {
 .navbar {
   width: 100%;
   font-size: 18px;
-  padding-bottom: 10px;
   position: fixed;
   z-index: 10;
 }
@@ -147,8 +145,9 @@ p {
 }
 
 .navbar-toggle {
+  display: inline-block;
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 20px;
   cursor: pointer;
   color:#fff;
@@ -210,7 +209,7 @@ p {
 }
 
 .port-images:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   transition: opacity 0.2s ease-in;
 }
 
@@ -222,13 +221,25 @@ p {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: 300px;
+  grid-auto-rows: 300px;
   grid-gap: 15px;
+}
+
+.project-gallery:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .deliverables,
 .descriptors {
   padding: 15px;
+}
+
+.project-gallery {
+  text-align: center;
+}
+
+.project-gallery h1 {
+  margin: 0;
 }
 
 .clearfix::after {
@@ -313,6 +324,7 @@ footer {
 
   .dropdown-content {
     position: fixed;
+    box-shadow: 0px 0px 10px #ff66c4;
   }
 
   .dropdown-content li {

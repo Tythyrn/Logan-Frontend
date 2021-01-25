@@ -26,7 +26,7 @@ export default function navBar () {
   return (
     <nav className={navbar ? 'navbar scrolled' : 'navbar'}>
       <span className="navbar-toggle" onClick={() => setIsActive(!isActive)}>
-        <i className="fas fa-bars"></i>
+        <i className="fas fa-bars fa-lg"></i>
       </span>
       <Link href="/">
         <img className="logo" src="/images/nav/logo.png" alt="LSR Creative Logo"></img>
@@ -36,7 +36,6 @@ export default function navBar () {
           <ul className={`dropdown-content graphic-drop ${openGraphic ? 'active' : ''}`} onClick={() => {setOpenGraphic(false); setIsActive(false)}}>
             <li><Link href="/graphic-designs/cws-home-services"><a>CWS Home Services</a></Link></li>
             <li><Link href="/graphic-designs/riverbend"><a>Riverbend</a></Link></li>
-            <li><Link href="/graphic-designs/tales-aplenty-podcast"><a>Tales Aplenty Podcast</a></Link></li>
           </ul>
         </li>
         <li className="dropdown"><a className="nav-links" onClick={() => {setOpenMotion(!openMotion); setOpenGraphic(false)}}>Motion Graphics <i className={`fa ${openMotion ? 'fa-caret-up' : 'fa-caret-down'}`}></i></a>

@@ -1,26 +1,32 @@
 {
   "title": "Converse",
-  "overview": "**NEED THIS**",
-  "deliverables": "- 3-4 Style Frames / Boar d s show ing us the progr e ssion of the Logo Reveal\n- The l ogo should re solve with our Tagline, as well as social media icons.",
-  "descriptors": "- Our tagline is: Shoes are Boring. Wear Sneakers.\n- Our core demographic is 15-35 , Male and Female.\n- We have a social media presence on Facebook, Twitter, Instagram, Pinterest, Vine, and Google+. Feature those icons.",
+  "overview": "<p>Converse would like a :05 logo reveal animation to use on the end of videos they publish online in places like Social Media, YouTube, and possibly at the end of pre-roll ads. Looking for something high-end but authentic and can speak to the Converse brand.</p><p>*created through School of Motion. For educational purposes only.</p>",
+  "deliverables": "<ul><li>3-4 Style Frames / Boards showing us the progression of the Logo Reveal</li><li>The logo should resolve with our Tagline, as well as social media icons</li></ul>",
+  "descriptors": "<ul><li>Our tagline is: Shoes are Boring. Wear Sneakers.</li><li>Feature icons for Facebook, Twitter, Instagram, Pinterest, Vine, and Google+. </li></ul>",
+  "projects": [
+    {
+      "id": "1",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/motion-graphics/converse/converseHero.jpg",
+          "alt": "Man Dancing on Converse Logo"
+        },
+        {
+          "id": "2",
+          "url": "/images/motion-graphics/converse/converse1.jpg",
+          "alt": "All boards of Converse Project"
+        }
+      ]
+    }
+  ],
   "heroImage": [
     {
       "url": "/images/motion-graphics/converse/converseHero.jpg",
       "alt": "Man Dancing on Converse Logo"
     }
   ],
-  "imageSet": [
-    {
-      "id": "1",
-      "url": "/images/motion-graphics/converse/converseHero.jpg",
-      "alt": "Man Dancing on Converse Logo"
-    },
-    {
-      "id": "2",
-      "url": "/images/motion-graphics/converse/converse1.jpg",
-      "alt": "All boards of Converse Project"
-    }
-  ],
   "slug": "converse",
-  "metaDescription": "School of Motion Converse Project"
+  "metaDescription": "Logan Rundquist's School of Motion Converse Project",
+  "metaTitle": "Converse"
 }
