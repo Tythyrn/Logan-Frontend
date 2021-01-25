@@ -8,7 +8,7 @@
         {
           "id": "1",
           "url": "/images/motion-graphics/moodboards/moodHero.jpg",
-          "alt": "Head with different symbols and icons inside"
+          "alt": "Mood Board alternative for Expedition 100"
         },
         {
           "id": "2",
@@ -19,6 +19,11 @@
           "id": "3",
           "url": "/images/motion-graphics/moodboards/mood2.jpg",
           "alt": "Mood board 2 for Sprint"
+        },
+        {
+          "id": "4",
+          "url": "/images/motion-graphics/moodboards/mood3.jpg",
+          "alt": "Mood board for Diesel Dance Planet"
         }
       ]
     }
@@ -26,7 +31,7 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/moodboards/moodHero.jpg",
-      "alt": "Mood Board alternative for mision to mars"
+      "alt": "Mood Board alternative for Expedition 100"
     }
   ],
   "slug": "mood-boards",

@@ -34,7 +34,7 @@ export default function navBar () {
       <ul className={`main-nav ${isActive ? 'active' : ''}` }>
         <li className="dropdown"><a className="nav-links" onClick={() => {setOpenGraphic(!openGraphic); setOpenMotion(false)}}>Graphic Design <i className={`fa ${openGraphic ? 'fa-caret-up' : 'fa-caret-down'}`}></i></a>
           <ul className={`dropdown-content graphic-drop ${openGraphic ? 'active' : ''}`} onClick={() => {setOpenGraphic(false); setIsActive(false)}}>
-            <li><Link href="/graphic-designs/cws-home-services"><a>CWS Home Services</a></Link></li>
+            <li><Link href="/graphic-designs/cws"><a>CWS</a></Link></li>
             <li><Link href="/graphic-designs/riverbend"><a>Riverbend</a></Link></li>
           </ul>
         </li>
@@ -42,7 +42,7 @@ export default function navBar () {
           <ul className={`dropdown-content motion-drop ${openMotion ? 'active' : ''}`} onClick={() => {setOpenMotion(false); setIsActive(false)}}>
             <li><Link href="/motion-graphics/diesel-dance-party"><a>Diesel Dance Party</a></Link></li>
             <li><Link href="/motion-graphics/premium-beat"><a>Premiumbeat.com</a></Link></li>
-            <li><Link href="/motion-graphics/mission-to-mars"><a>Mission To Mars</a></Link></li>
+            <li><Link href="/motion-graphics/expedition100"><a>Expedition 100</a></Link></li>
             <li><Link href="/motion-graphics/ibm"><a>IBM</a></Link></li>
             <li><Link href="/motion-graphics/converse"><a>Converse</a></Link></li>
             <li><Link href="/motion-graphics/12km"><a>12KM</a></Link></li>

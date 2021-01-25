@@ -1,8 +1,8 @@
 {
-  "title": "Riverbend",
-  "overview": "<p>Riverbend church asked me to help their creative team out first in 2019 on graphics creation and brainstorming for sermon series artwork. This artwork is released both in print and digital to mark the beginning of new sermons, advertise on social media as well as supplement videos they show during services.</p>",
+  "title": "RIVERBEND",
+  "overview": "<p>Riverbend Church asked me to help their creative team out first in 2019 on graphics creation and brainstorming for sermon series artwork. This artwork is released both in print and digital to mark the beginning of new sermons, advertise on social media as well as supplement videos they show during services.</p>",
   "deliverables": "<ul><li>One hero design for individual sermon series, and then these are converted into various sizes for their other needs (social media, email headers, large video format, print, etc.)</li></ul>",
-  "descriptors": "<ul><li>All designs were created by Shavanna with contributions from myself and Tylyn (on staff at Riverbend), with exception to Finding Harmony- I created that artwork myself.</li></ul>",
+  "descriptors": "<ul><li>All designs were made in collaboration with Shavanna Pinder and Tylyn Taylor (both on staff at Riverbend Church).</li></ul>",
   "projects": [
     {
       "id": "1",
@@ -11,16 +11,19 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/harmony/harmony1.jpg",
+          "caption": "Sketch 1 - By Logan Rundquist",
           "alt": "Finding Harmony Comp"
         },
         {
           "id": "2",
           "url": "/images/graphic-designs/riverbend/harmony/harmony2.jpg",
+          "caption": "Sketch 2 - By Logan Rundquist",
           "alt": "Finding Harmony Sketches"
         },
         {
           "id": "3",
           "url": "/images/graphic-designs/riverbend/harmony/harmony3.jpg",
+          "caption": "Final Design - By Logan Rundquist",
           "alt": "Finding Harmony Final Render"
         }
       ]
@@ -32,11 +35,13 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/liminal/liminal1.jpg",
+          "caption": "Text Pairings - By Logan Rundquist",
           "alt": "Stay Liminal Font Pairings"
         },
         {
           "id": "2",
           "url": "/images/graphic-designs/riverbend/liminal/liminal2.png",
+          "caption": "Final Design - By Shavanna Pinder",
           "alt": "Stay Liminal Final Render"
         }
       ]
@@ -48,11 +53,13 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/physics/physics1.jpg",
+          "caption": "Comp Idea - By Logan Rundquist",
           "alt": "Physics of Faith Comp"
         },
         {
           "id": "2",
           "url": "/images/graphic-designs/riverbend/physics/physics2.png",
+          "caption": "Final Design - By Shavanna Pinder",
           "alt": "Physics of Faith Final Render"
         }
       ]
@@ -64,16 +71,19 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/square/square1.jpg",
+          "caption": "Text Pairings - By Logan Rundquist",
           "alt": "Square One Fonts"
         },
         {
           "id": "2",
           "url": "/images/graphic-designs/riverbend/square/square2.jpg",
+          "caption": "Comp Idea - By Logan Rundquist",
           "alt": "Square One Comp"
         },
         {
           "id": "3",
           "url": "/images/graphic-designs/riverbend/square/square3.png",
+          "caption": "Final Design - By Shavanna Pinder",
           "alt": "Square One Final Render"
         }
       ]
@@ -81,8 +91,8 @@
   ],
   "heroImage": [
     {
-      "url": "/images/graphic-designs/riverbend/harmony/harmony3.jpg",
-      "alt": "Man Dancing on Converse Logo"
+      "url": "/images/graphic-designs/riverbend/riverbendHero.jpg",
+      "alt": "Finding Harmony Hero Image"
     }
   ],
   "slug": "riverbend",

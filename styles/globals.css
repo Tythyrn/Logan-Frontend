@@ -53,22 +53,24 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://via.placeholder.com/1920x1080.png);
+  background: url('/images/home/mainHero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  filter: brightness(60%);
+  filter: brightness(80%);
 }
 .hero-content {
   position: relative;
   font-family: "Monserrat", sans-serif;
-  color: white;
   text-align: center;
   margin: 0.625rem;
 }
 .hero-title {
-  font-size: 3rem;
-  font-weight: 600;
+  margin-top: 0;
+  font-size: 15rem;
+  opacity: 0.8;
+  font-weight: bold;
+  color: white;
   margin-bottom: 0;
 }
 
@@ -225,8 +227,8 @@ p {
   grid-gap: 15px;
 }
 
-.project-gallery:not(:last-child) {
-  margin-bottom: 30px;
+.project-gallery {
+  margin-top: 50px;
 }
 
 .deliverables,
@@ -323,8 +325,16 @@ footer {
   }
 
   .dropdown-content {
-    position: fixed;
-    box-shadow: 0px 0px 10px #ff66c4;
+    position: absolute;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  .graphic-drop {
+    right: 390px;
+  }
+
+  .motion-drop {
+    right: 180px;
   }
 
   .dropdown-content li {

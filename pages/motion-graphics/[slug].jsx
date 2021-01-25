@@ -43,18 +43,21 @@ const MotionGraphic = ({ caseStudy }) => {
           }
         </div>
         {caseStudy.projects.map(project => (
-          <div className="gallery" key={project.id}>
-            {project.imageSet.map(image => (
-              <div className="port-image-container" key={image.id}>
-                <a href={image.url} className="port-image-links">
-                    <img 
-                      src={image.url}
-                      alt={image.alt}
-                      className="port-images"
-                    />
-                </a>
-              </div>
-            ))}
+          <div className="project-gallery" key={project.id}>
+            {project.title ? <h1>{project.title}</h1> : ''}
+            <div className="gallery">
+              {project.imageSet.map(image => (
+                <div className="port-image-container" key={image.id}>
+                  <a href={image.url} className="port-image-links" data-caption={image.caption ? image.caption : ''}>
+                      <img 
+                        src={image.url}
+                        alt={image.alt}
+                        className="port-images"
+                      />
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </section>

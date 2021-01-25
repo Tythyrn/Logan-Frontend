@@ -11,7 +11,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">
-                Discover the World
+                LSR CREATIVE
           </h1>
         </div>
       </section>

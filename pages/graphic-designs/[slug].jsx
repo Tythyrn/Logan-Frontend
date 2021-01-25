@@ -48,7 +48,7 @@ const GraphicDesign = ({ caseStudy }) => {
             <div className="gallery">
               {project.imageSet.map(image => (
                 <div className="port-image-container" key={image.id}>
-                  <a href={image.url} className="port-image-links">
+                  <a href={image.url} className="port-image-links" data-caption={image.caption ? image.caption : ''}>
                       <img 
                         src={image.url}
                         alt={image.alt}
