@@ -16,6 +16,11 @@
           "id": "2",
           "url": "/images/motion-graphics/tokyothrowdown/tokyo1.jpg",
           "alt": "Man dancing in front of bright background"
+        },
+        {
+          "id": "3",
+          "url": "/images/motion-graphics/tokyothrowdown/tokyo2.jpg",
+          "alt": "All frames of Tokyo Throwdown"
         }
       ]
     }

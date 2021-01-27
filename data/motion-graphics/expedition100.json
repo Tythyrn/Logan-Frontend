@@ -6,26 +6,43 @@
   "projects": [
     {
       "id": "1",
+      "title": "Final Version",
       "imageSet": [
-        {
-          "id": "1",
-          "url": "/images/motion-graphics/expedition/expedition1.jpg",
-          "alt": "Expedition 100 starting frame"
-        },
         {
           "id": "2",
           "url": "/images/motion-graphics/expedition/expedition2.jpg",
-          "alt": "Alternative frame for Expedition 100"
+          "alt": "Expedition 100 Title Screen"
+        },
+        {
+          "id": "2",
+          "url": "/images/motion-graphics/expedition/expedition4.jpg",
+          "alt": "Expedition 100 Starting Frame"
         },
         {
           "id": "3",
           "url": "/images/motion-graphics/expedition/expedition3.jpg",
-          "alt": "Expediton 100 frame"
+          "alt": "Expediton 100 all frames board"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Alternative Design",
+      "imageSet": [
+        {
+          "id": "1",
+          "url": "/images/motion-graphics/expedition/expedition1.jpg",
+          "alt": "Alternative frame for Expedition 100"
         },
         {
-          "id": "4",
-          "url": "/images/motion-graphics/expedition/expedition4.jpg",
-          "alt": "All frames board"
+          "id": "2",
+          "url": "/images/motion-graphics/expedition/expedition5.jpg",
+          "alt": "Alternative frame for Expedition 100"
+        },
+        {
+          "id": "3",
+          "url": "/images/motion-graphics/expedition/expedition6.jpg",
+          "alt": "Expediton 100 alternative frames board"
         }
       ]
     }
