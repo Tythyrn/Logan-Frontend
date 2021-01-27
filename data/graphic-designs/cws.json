@@ -29,7 +29,7 @@
         },
         {
           "id": "5",
-          "url": "/images/graphic-designs/cws/cws5.jpg",
+          "url": "/images/graphic-designs/cws/cwsHero.jpg",
           "alt": "Home Services Hello and Welcome"
         },
         {
@@ -72,7 +72,7 @@
   ],
   "heroImage": [
     {
-      "url": "/images/graphic-designs/cws/cwsHero.png",
+      "url": "/images/graphic-designs/cws/cwsHero.jpg",
       "alt": "CWS Hero Image"
     }
   ],
