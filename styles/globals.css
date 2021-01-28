@@ -34,6 +34,10 @@ p {
   padding: 8px;
 }
 
+hr {
+  border-top: 3px solid #fff;
+}
+
 /**************
 *   Hero   *
 **************/
@@ -67,7 +71,7 @@ p {
 }
 .hero-title {
   margin-top: 0;
-  font-size: 15rem;
+  font-size: 17vw;
   opacity: 0.8;
   font-weight: bold;
   color: white;
@@ -286,6 +290,10 @@ footer {
 ********************/
 
 @media screen and (min-width: 768px) {
+  hr {
+    border-top: 8px solid #fff;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;
