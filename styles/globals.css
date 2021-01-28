@@ -257,11 +257,13 @@ hr {
 /************
 *   Footer  *
 *************/
-
 footer {
   margin-top: 20px;
   padding: 10px;
   background-color: #ff66c4;
+}
+
+.main-footer {
   display: flex;
   justify-content: space-between;
 }
@@ -283,6 +285,13 @@ footer {
 
 .brand-icons i {
   margin-left: 15px;
+}
+
+.sub-footer {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
 }
 
 /********************
