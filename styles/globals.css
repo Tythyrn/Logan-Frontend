@@ -11,11 +11,6 @@
   padding: 0;
 }
 
-ul li {
-  margin-left: 1em;
-  padding-bottom: 5px;
-}
-
 h2 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -221,6 +216,12 @@ hr {
 
 .port-image-container {
   margin-top: 20px;
+}
+
+.deliverables li,
+.descriptors li {
+  margin-left: 1em;
+  padding-bottom: 5px;
 }
 
 .gallery {
