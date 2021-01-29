@@ -92,7 +92,9 @@
   "heroImage": [
     {
       "url": "/images/graphic-designs/riverbend/riverbendHero.jpg",
-      "alt": "Finding Harmony Hero Image"
+      "alt": "Finding Harmony Hero Image",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "riverbend",

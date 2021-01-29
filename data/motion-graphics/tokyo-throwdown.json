@@ -28,7 +28,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
-      "alt": "Woman dancing behind bright background"
+      "alt": "Woman dancing behind bright background",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "tokyo-throwdown",

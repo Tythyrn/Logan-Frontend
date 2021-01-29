@@ -23,7 +23,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/12km/12kmHero.jpg",
-      "alt": "12KM Title image"
+      "alt": "12KM Title image",
+      "width": "2048",
+      "height": "768"
     }
   ],
   "slug": "12km",

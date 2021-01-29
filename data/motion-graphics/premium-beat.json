@@ -28,7 +28,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/premiumbeat/beatHero.jpg",
-      "alt": "Woman dancing"
+      "alt": "Woman dancing",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "premium-beat",

@@ -31,7 +31,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/moodboards/moodHero.jpg",
-      "alt": "Mood Board alternative for Expedition 100"
+      "alt": "Mood Board alternative for Expedition 100",
+      "width": "3400",
+      "height": "2200"
     }
   ],
   "slug": "mood-boards",

@@ -28,7 +28,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/ibm/ibmHero.jpg",
-      "alt": "Head with different symbols and icons inside"
+      "alt": "Head with different symbols and icons inside",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "ibm",

@@ -28,7 +28,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/diesel/diesel-hero.jpg",
-      "alt": "Woman standing in spotlight"
+      "alt": "Woman standing in spotlight",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "diesel-dance-party",

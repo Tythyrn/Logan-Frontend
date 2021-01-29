@@ -73,7 +73,9 @@
   "heroImage": [
     {
       "url": "/images/graphic-designs/cws/cwsHero.jpg",
-      "alt": "CWS Hero Image"
+      "alt": "CWS Hero Image",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "cws",

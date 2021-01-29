@@ -50,7 +50,9 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/expedition/expedition2.jpg",
-      "alt": "Expedition 100 starting frame"
+      "alt": "Expedition 100 starting frame",
+      "width": "1920",
+      "height": "1080"
     }
   ],
   "slug": "expedition100",

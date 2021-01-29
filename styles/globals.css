@@ -181,15 +181,6 @@ hr {
 *   Projects   *
 ***************/
 
-.main-img {
-  width: 100%;
-}
-
-.headerImage {
-  max-height: 100vh;
-  overflow: hidden;
-}
-
 .project-information {
   max-width: 1200px;
   width: 95%;

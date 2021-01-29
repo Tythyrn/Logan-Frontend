@@ -10,15 +10,21 @@ const GraphicDesign = ({ caseStudy }) => {
     baguetteBox.run('.gallery');
   });
 
+  const imageStyle = {
+    overflow: 'hidden',
+    height: '0',
+    paddingTop: `calc(${caseStudy.heroImage[0].height} / ${caseStudy.heroImage[0].width} * 100%)`,
+    backgroundImage: `url(${caseStudy.heroImage[0].url})`,
+    backgroundSize: "contain"
+  }
+
   return (
     <Layout>
       <Head>
         <title>{caseStudy.metaTitle}</title>
         <meta name="description" content={caseStudy.metaDescription}/>
       </Head>
-      <div className="headerImage">
-        <img src={caseStudy.heroImage[0].url} className="main-img" alt={caseStudy.heroImage[0].alt}/>
-      </div>
+      <div style={imageStyle}></div>
       <section className="project-information">
         <div className="overview">
           <h1 className="project-header">{caseStudy.title}</h1>
