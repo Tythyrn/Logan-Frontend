@@ -34,20 +34,20 @@ export default function navBar () {
       <ul className={`main-nav ${isActive ? 'active' : ''}` }>
         <li className="dropdown"><a className="nav-links" onClick={() => {setOpenGraphic(!openGraphic); setOpenMotion(false)}}>Graphic Design <i className={`fa ${openGraphic ? 'fa-caret-up' : 'fa-caret-down'}`}></i></a>
           <ul className={`dropdown-content graphic-drop ${openGraphic ? 'active' : ''}`} onClick={() => {setOpenGraphic(false); setIsActive(false)}}>
-            <li><Link href="/graphic-designs/cws"><a>CWS</a></Link></li>
-            <li><Link href="/graphic-designs/riverbend"><a>Riverbend</a></Link></li>
+            <li><Link href="/cws"><a>CWS</a></Link></li>
+            <li><Link href="/riverbend"><a>Riverbend</a></Link></li>
           </ul>
         </li>
         <li className="dropdown"><a className="nav-links" onClick={() => {setOpenMotion(!openMotion); setOpenGraphic(false)}}>Motion Graphics <i className={`fa ${openMotion ? 'fa-caret-up' : 'fa-caret-down'}`}></i></a>
           <ul className={`dropdown-content motion-drop ${openMotion ? 'active' : ''}`} onClick={() => {setOpenMotion(false); setIsActive(false)}}>
-            <li><Link href="/motion-graphics/diesel-dance-party"><a>Diesel Dance Party</a></Link></li>
-            <li><Link href="/motion-graphics/premium-beat"><a>Premiumbeat.com</a></Link></li>
-            <li><Link href="/motion-graphics/expedition100"><a>Expedition 100</a></Link></li>
-            <li><Link href="/motion-graphics/ibm"><a>IBM</a></Link></li>
-            <li><Link href="/motion-graphics/converse"><a>Converse</a></Link></li>
-            <li><Link href="/motion-graphics/12km"><a>12KM</a></Link></li>
-            <li><Link href="/motion-graphics/tokyo-throwdown"><a>Tokyo Throwdown</a></Link></li>
-            <li><Link href="/motion-graphics/mood-boards"><a>Mood Boards</a></Link></li>
+            <li><Link href="/diesel-dance-party"><a>Diesel Dance Party</a></Link></li>
+            <li><Link href="/premium-beat"><a>Premiumbeat.com</a></Link></li>
+            <li><Link href="/expedition100"><a>Expedition 100</a></Link></li>
+            <li><Link href="/ibm"><a>IBM</a></Link></li>
+            <li><Link href="/converse"><a>Converse</a></Link></li>
+            <li><Link href="/12km"><a>12KM</a></Link></li>
+            <li><Link href="/tokyo-throwdown"><a>Tokyo Throwdown</a></Link></li>
+            <li><Link href="/mood-boards"><a>Mood Boards</a></Link></li>
           </ul>
         </li>
         <li><a className="nav-links" href="mailto: logantscandling@gmail.com?subject=Hello There!">Get In Touch</a></li>

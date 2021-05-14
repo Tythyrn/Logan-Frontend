@@ -1,10 +1,10 @@
-import Layout from '../../components/Layout';
-import baguetteBox from '../../lib/baguetteBox.js'
-import {getAllProjects, getProjectBySlug} from '../../lib/api/graphicApi';
+import Layout from '../components/Layout';
+import baguetteBox from '../lib/baguetteBox.js'
+import {getAllProjects, getProjectBySlug} from '../lib/api/dataApi';
 import {useEffect} from 'react'
 import Head from 'next/head'
 
-const GraphicDesign = ({ caseStudy }) => {
+const Page = ({ caseStudy }) => {
 
   useEffect(() => {
     baguetteBox.run('.gallery');
@@ -76,13 +76,22 @@ const GraphicDesign = ({ caseStudy }) => {
 };
 
 export async function getStaticPaths() {
+  const paths = [];
   const projects = getAllProjects();
+
+  paths.push(
+    ...projects
+      .map((project) => ({
+        params: {
+          slug: project
+        }
+      }))
+  );
+
+  
+  console.log(paths);
   return {
-    paths: projects.map((project) => ({
-      params: {
-        slug: project.slug,
-      },
-    })),
+    paths,
     fallback: false,
   };
 }
@@ -96,4 +105,4 @@ export async function getStaticProps({ params }) {
     revalidate: 300,
   };
 }
-export default GraphicDesign;
+export default Page;
