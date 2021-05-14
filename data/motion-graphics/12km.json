@@ -22,10 +22,20 @@
   ],
   "heroImage": [
     {
+      "url": "/images/motion-graphics/12km/12kmHero320.jpg",
+      "alt": "12KM Title image"
+    },
+    {
+      "url": "/images/motion-graphics/12km/12kmHero800.jpg",
+      "alt": "12KM Title image"
+    },
+    {
+      "url": "/images/motion-graphics/12km/12kmHero1200.jpg",
+      "alt": "12KM Title image"
+    },
+    {
       "url": "/images/motion-graphics/12km/12kmHero.jpg",
-      "alt": "12KM Title image",
-      "width": "2048",
-      "height": "768"
+      "alt": "12KM Title image"
     }
   ],
   "slug": "12km",

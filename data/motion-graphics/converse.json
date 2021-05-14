@@ -22,10 +22,20 @@
   ],
   "heroImage": [
     {
+      "url": "/images/motion-graphics/converse/converseHero320.jpg",
+      "alt": "Man Dancing on Converse Logo"
+    },
+    {
+      "url": "/images/motion-graphics/converse/converseHero800.jpg",
+      "alt": "Man Dancing on Converse Logo"
+    },
+    {
+      "url": "/images/motion-graphics/converse/converseHero1200.jpg",
+      "alt": "Man Dancing on Converse Logo"
+    },
+    {
       "url": "/images/motion-graphics/converse/converseHero.jpg",
-      "alt": "Man Dancing on Converse Logo",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Man Dancing on Converse Logo"
     }
   ],
   "slug": "converse",

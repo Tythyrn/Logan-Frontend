@@ -27,10 +27,19 @@
   ],
   "heroImage": [
     {
+      "url": "/images/motion-graphics/premiumbeat/beatHero320.jpg",
+      "alt": "Woman dancing"
+    },
+    {
+      "url": "/images/motion-graphics/premiumbeat/beatHero800.jpg",
+      "alt": "Woman dancing"
+    },
+    {
+      "url": "/images/motion-graphics/premiumbeat/beatHero1200.jpg",
+      "alt": "Woman dancing"
+    },{
       "url": "/images/motion-graphics/premiumbeat/beatHero.jpg",
-      "alt": "Woman dancing",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Woman dancing"
     }
   ],
   "slug": "premium-beat",

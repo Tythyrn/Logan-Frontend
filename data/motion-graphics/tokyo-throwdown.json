@@ -27,10 +27,20 @@
   ],
   "heroImage": [
     {
+      "url": "/images/motion-graphics/tokyothrowdown/tokyoHero320.jpg",
+      "alt": "Woman dancing behind bright background"
+    },
+    {
+      "url": "/images/motion-graphics/tokyothrowdown/tokyoHero800.jpg",
+      "alt": "Woman dancing behind bright background"
+    },
+    {
+      "url": "/images/motion-graphics/tokyothrowdown/tokyoHero1200.jpg",
+      "alt": "Woman dancing behind bright background"
+    },
+    {
       "url": "/images/motion-graphics/tokyothrowdown/tokyoHero.jpg",
-      "alt": "Woman dancing behind bright background",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Woman dancing behind bright background"
     }
   ],
   "slug": "tokyo-throwdown",

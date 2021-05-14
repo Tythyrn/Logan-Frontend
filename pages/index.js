@@ -17,7 +17,7 @@ export default function Home() {
       </section>
       <section className="about">
         <div className="profile">
-          <img className="profile-pic" src="/images/home/profile.jpeg" alt="Logan Rundquist's profile picture"/>
+          <img className="profile-pic" src="/images/home/profile.jpg" alt="Logan Rundquist's profile picture"/>
         </div>
         <div className="personal-info">
           <h1>About Me</h1>

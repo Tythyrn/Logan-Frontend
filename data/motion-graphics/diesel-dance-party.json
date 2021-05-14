@@ -10,19 +10,16 @@
         {
           "id": "1",
           "url": "/images/motion-graphics/diesel/diesel-hero.jpg",
-          "thumbnail": "/images/motion-graphics/diesel/diesel-hero320.jpg",
           "alt": "Woman standing in spotlight"
         },
         {
           "id": "2",
           "url": "/images/motion-graphics/diesel/diesel1.jpg",
-          "thumbnail": "/images/motion-graphics/diesel/diesel-hero320.jpg",
           "alt": "People at concert"
         },
         {
           "id": "3",
           "url": "/images/motion-graphics/diesel/diesel2.jpg",
-          "thumbnail": "/images/motion-graphics/diesel/diesel-hero320.jpg",
           "alt": "6 Design Boards showing flow of commercial"
         }
       ]
@@ -31,27 +28,19 @@
   "heroImage": [
     {
       "url": "/images/motion-graphics/diesel/diesel-hero320.jpg",
-      "alt": "Woman standing in spotlight",
-      "width": "320",
-      "height": "180"
+      "alt": "Woman standing in spotlight"
     },
     {
       "url": "/images/motion-graphics/diesel/diesel-hero800.jpg",
-      "alt": "Woman standing in spotlight",
-      "width": "800",
-      "height": "450"
+      "alt": "Woman standing in spotlight"
     },
     {
       "url": "/images/motion-graphics/diesel/diesel-hero1200.jpg",
-      "alt": "Woman standing in spotlight",
-      "width": "1200",
-      "height": "675"
+      "alt": "Woman standing in spotlight"
     },
     {
       "url": "/images/motion-graphics/diesel/diesel-hero.jpg",
-      "alt": "Woman standing in spotlight",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Woman standing in spotlight"
     }
   ],
   "slug": "diesel-dance-party",

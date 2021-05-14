@@ -11,18 +11,21 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/harmony/harmony1.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/harmony/harmony1Thumbnail.jpg",
           "caption": "Sketch 1 - By Logan Rundquist",
           "alt": "Finding Harmony Comp"
         },
         {
           "id": "2",
           "url": "/images/graphic-designs/riverbend/harmony/harmony2.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/harmony/harmony2Thumbnail.jpg",
           "caption": "Sketch 2 - By Logan Rundquist",
           "alt": "Finding Harmony Sketches"
         },
         {
           "id": "3",
           "url": "/images/graphic-designs/riverbend/harmony/harmony3.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/harmony/harmony3Thumbnail.jpg",
           "caption": "Final Design - By Logan Rundquist",
           "alt": "Finding Harmony Final Render"
         }
@@ -35,12 +38,14 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/liminal/liminal1.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/liminal/liminal1Thumbnail.jpg",
           "caption": "Text Pairings - By Logan Rundquist",
           "alt": "Stay Liminal Font Pairings"
         },
         {
           "id": "2",
-          "url": "/images/graphic-designs/riverbend/liminal/liminal2.png",
+          "url": "/images/graphic-designs/riverbend/liminal/liminal2.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/liminal/liminal2Thumbnail.jpg",
           "caption": "Final Design - By Shavanna Pinder",
           "alt": "Stay Liminal Final Render"
         }
@@ -53,12 +58,14 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/physics/physics1.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/physics/physics1Thumbnail.jpg",
           "caption": "Comp Idea - By Logan Rundquist",
           "alt": "Physics of Faith Comp"
         },
         {
           "id": "2",
-          "url": "/images/graphic-designs/riverbend/physics/physics2.png",
+          "url": "/images/graphic-designs/riverbend/physics/physics2.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/physics/physics2Thumbnail.jpg",
           "caption": "Final Design - By Shavanna Pinder",
           "alt": "Physics of Faith Final Render"
         }
@@ -71,18 +78,21 @@
         {
           "id": "1",
           "url": "/images/graphic-designs/riverbend/square/square1.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/square/square1Thumbnail.jpg",
           "caption": "Text Pairings - By Logan Rundquist",
           "alt": "Square One Fonts"
         },
         {
           "id": "2",
           "url": "/images/graphic-designs/riverbend/square/square2.jpg",
-          "caption": "Comp Idea - By Logan Rundquist",
+          "thumbnail": "/images/graphic-designs/riverbend/square/square2Thumbnail.jpg",
+          "caption": "Comp Idea - By Logan Rundquist", 
           "alt": "Square One Comp"
         },
         {
           "id": "3",
-          "url": "/images/graphic-designs/riverbend/square/square3.png",
+          "url": "/images/graphic-designs/riverbend/square/square3.jpg",
+          "thumbnail": "/images/graphic-designs/riverbend/square/square3Thumbnail.jpg",
           "caption": "Final Design - By Shavanna Pinder",
           "alt": "Square One Final Render"
         }
@@ -91,10 +101,20 @@
   ],
   "heroImage": [
     {
+      "url": "/images/graphic-designs/riverbend/riverbendHero320.jpg",
+      "alt": "Finding Harmony Hero Image"
+    },
+    {
+      "url": "/images/graphic-designs/riverbend/riverbendHero800.jpg",
+      "alt": "Finding Harmony Hero Image"
+    },
+    {
+      "url": "/images/graphic-designs/riverbend/riverbendHero1200.jpg",
+      "alt": "Finding Harmony Hero Image"
+    },
+    {
       "url": "/images/graphic-designs/riverbend/riverbendHero.jpg",
-      "alt": "Finding Harmony Hero Image",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Finding Harmony Hero Image"
     }
   ],
   "slug": "riverbend",

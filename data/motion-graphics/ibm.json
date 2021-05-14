@@ -27,10 +27,19 @@
   ],
   "heroImage": [
     {
+      "url": "/images/motion-graphics/ibm/ibmHero320.jpg",
+      "alt": "Head with different symbols and icons inside"
+    },
+    {
+      "url": "/images/motion-graphics/ibm/ibmHero800.jpg",
+      "alt": "Head with different symbols and icons inside"
+    },
+    {
+      "url": "/images/motion-graphics/ibm/ibmHero1200.jpg",
+      "alt": "Head with different symbols and icons inside"
+    },    {
       "url": "/images/motion-graphics/ibm/ibmHero.jpg",
-      "alt": "Head with different symbols and icons inside",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Head with different symbols and icons inside"
     }
   ],
   "slug": "ibm",

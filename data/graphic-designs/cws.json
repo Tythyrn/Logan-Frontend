@@ -24,7 +24,7 @@
         },
         {
           "id": "4",
-          "url": "/images/graphic-designs/cws/cws4.png",
+          "url": "/images/graphic-designs/cws/cws4.jpg",
           "alt": "Home Services Newsletter"
         },
         {
@@ -39,17 +39,17 @@
         },
         {
           "id": "7",
-          "url": "/images/graphic-designs/cws/cws7.jpeg",
+          "url": "/images/graphic-designs/cws/cws7.jpg",
           "alt": "Home Services Gift Tag"
         },
         {
           "id": "8",
-          "url": "/images/graphic-designs/cws/cws8.png",
+          "url": "/images/graphic-designs/cws/cws8.jpg",
           "alt": "Home Services Graphic"
         },
         {
           "id": "9",
-          "url": "/images/graphic-designs/cws/cws9.png",
+          "url": "/images/graphic-designs/cws/cws9.jpg",
           "alt": "Home Services Extra Bed Linens"
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "id": "11",
-          "url": "/images/graphic-designs/cws/cws11.png",
+          "url": "/images/graphic-designs/cws/cws11.jpg",
           "alt": "Home Services Christmas"
         },
         {
@@ -72,10 +72,20 @@
   ],
   "heroImage": [
     {
+      "url": "/images/graphic-designs/cws/cwsHero320.jpg",
+      "alt": "CWS Hero Image"
+    },
+    {
+      "url": "/images/graphic-designs/cws/cwsHero800.jpg",
+      "alt": "CWS Hero Image"
+    },
+    {
+      "url": "/images/graphic-designs/cws/cwsHero1200.jpg",
+      "alt": "CWS Hero Image"
+    },
+    {
       "url": "/images/graphic-designs/cws/cwsHero.jpg",
-      "alt": "CWS Hero Image",
-      "width": "1920",
-      "height": "1080"
+      "alt": "CWS Hero Image"
     }
   ],
   "slug": "cws",

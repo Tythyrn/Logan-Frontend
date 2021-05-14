@@ -49,10 +49,20 @@
   ],
   "heroImage": [
     {
+      "url": "/images/motion-graphics/expedition/expedition2320.jpg",
+      "alt": "Expedition 100 starting frame"
+    },
+    {
+      "url": "/images/motion-graphics/expedition/expedition2800.jpg",
+      "alt": "Expedition 100 starting frame"
+    },
+    {
+      "url": "/images/motion-graphics/expedition/expedition21200.jpg",
+      "alt": "Expedition 100 starting frame"
+    },
+    {
       "url": "/images/motion-graphics/expedition/expedition2.jpg",
-      "alt": "Expedition 100 starting frame",
-      "width": "1920",
-      "height": "1080"
+      "alt": "Expedition 100 starting frame"
     }
   ],
   "slug": "expedition100",
