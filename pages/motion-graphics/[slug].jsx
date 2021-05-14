@@ -10,13 +10,13 @@ const MotionGraphic = ({ caseStudy }) => {
     baguetteBox.run('.gallery');
   });
 
-  const imageStyle = {
-    overflow: 'hidden',
-    height: '0',
-    paddingTop: `calc(${caseStudy.heroImage[0].height} / ${caseStudy.heroImage[0].width} * 100%)`,
-    backgroundImage: `url(${caseStudy.heroImage[0].url})`,
-    backgroundSize: "contain"
-  }
+  // const imageStyle = {
+  //   overflow: 'hidden',
+  //   height: '0',
+  //   paddingTop: `calc(${caseStudy.heroImage[0].height} / ${caseStudy.heroImage[0].width} * 100%)`,
+  //   backgroundImage: `url(${caseStudy.heroImage[0].url})`,
+  //   backgroundSize: "contain"
+  // }
 
   return (
     <Layout>
@@ -24,7 +24,11 @@ const MotionGraphic = ({ caseStudy }) => {
         <title>{caseStudy.metaTitle}</title>
         <meta name="description" content={caseStudy.metaDescription}/>
       </Head>
-      <div style={imageStyle}></div>
+      <img 
+        src={caseStudy.heroImage[0].url}
+        srcSet={`${caseStudy.heroImage[0].url} 320w, ${caseStudy.heroImage[1].url} 800w, ${caseStudy.heroImage[2].url} 1200w, ${caseStudy.heroImage[3].url} 1920w`}
+        alt={caseStudy.heroImage[0].alt}
+      />
       <section className="project-information">
         <div className="overview">
           <h1 className="project-header">{caseStudy.title}</h1>
@@ -56,7 +60,7 @@ const MotionGraphic = ({ caseStudy }) => {
                 <div className="port-image-container" key={image.id}>
                   <a href={image.url} className="port-image-links" data-caption={image.caption ? image.caption : ''}>
                       <img 
-                        src={image.url}
+                        src={image.thumbnail}
                         alt={image.alt}
                         className="port-images"
                       />
