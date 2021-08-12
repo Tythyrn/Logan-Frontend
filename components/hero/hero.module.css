@@ -1,0 +1,49 @@
+/**************
+*   Hero   *
+**************/
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/images/home/mainHero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(80%);
+}
+.heroContent {
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  text-align: center;
+  margin: 0.625rem;
+}
+.heroTitle {
+  margin-top: 0;
+  font-size: 17vw;
+  opacity: 0.8;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+
+.line {
+  border-top: 3px solid #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    border-top: 8px solid #fff;
+  }
+}

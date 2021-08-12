@@ -1,0 +1,28 @@
+/****************
+*   About   *
+****************/
+
+.about {
+  max-width: 1200px;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.profilePic {
+  width: 100%;
+  min-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    border-top: 8px solid #fff;
+  }
+
+  .about {
+    display: flex;
+  }
+
+  .profile {
+    margin-right: 20px;
+  }
+}

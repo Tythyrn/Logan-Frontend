@@ -1,17 +1,18 @@
 import Link from 'next/link';
+import styles from './footer.module.css'
 import { useState } from 'react';
 
-export default function navBar () {
+export default function Footer () {
 
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
   return (
-    <footer>
-      <div className="main-footer">
+    <footer className={styles.footer}>
+      <div className={styles.mainFooter}>
         <Link href="/">
-            <h2 className="footer-logo">LSR Creative</h2>
+            <h2 className={styles.footerLogo}>LSR Creative</h2>
         </Link>
-        <div className="brand-icons">
+        <div className={styles.brandIcons}>
             <a href="https://www.linkedin.com/in/logan-rundquist-03130897/" target="_blank" rel="noopener">
                 <i className="fab fa-linkedin-in"></i>
             </a>
@@ -20,7 +21,7 @@ export default function navBar () {
             </a>
         </div>
       </div>
-      <div className="sub-footer">
+      <div className={styles.subFooter}>
         <small>&copy; Copyright {currentYear}, Logan Rundquist</small>
       </div>
     </footer>

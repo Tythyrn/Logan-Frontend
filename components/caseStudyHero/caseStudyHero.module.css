@@ -1,0 +1,12 @@
+/**********************
+*   Case Study Hero   *
+**********************/
+
+.headerImage {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.mainImg {
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+/************
+*   Footer  *
+*************/
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff66c4;
+}
+
+.mainFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLogo,
+.brandIcons a,
+.subFooter {
+  color: #fff;
+}
+
+.brandIcons {
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.brandIcons i {
+  margin-left: 15px;
+}
+
+.subFooter {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
