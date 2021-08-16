@@ -18,16 +18,22 @@
   grid-gap: 15px;
 }
 
-.images {
+.imagesOuterWrapper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 3px 3px #ff66c4;
+}
+
+.imagesInnerWrapper {
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 1;
   transition: opacity 0.2s ease-in;
-  box-shadow: 3px 3px #ff66c4;
 }
 
-.images:hover {
+.imagesInnerWrapper:hover {
   opacity: 0.6;
   transition: opacity 0.2s ease-in;
 }
