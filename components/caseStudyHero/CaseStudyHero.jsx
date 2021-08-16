@@ -4,7 +4,7 @@ import Image from "@graphcms/react-image";
 export default function CaseStudyHero ({caseStudy}) {
   return (
     <div className={styles.headerImage}>
-      <Image image={caseStudy.heroImage[0]} maxWidth={caseStudy.heroImage[0].width} />
+      <Image image={caseStudy.heroImage[0]} maxWidth={caseStudy.heroImage[0].width} alt={caseStudy.heroImage[0].alt}/>
       {/* <img 
         className={styles.mainImg}
         src={caseStudy.heroImage[0].url}

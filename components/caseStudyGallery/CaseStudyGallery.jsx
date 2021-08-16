@@ -10,8 +10,8 @@ export default function CaseStudyGallery ({caseStudy}) {
           {project.title ? <h1>{project.title}</h1> : ''}
           <div className={`gallery ${styles.gallery}`}>
             {project.imageSet.map(image => (
-                <a href={image.url} data-caption={image.caption ? image.caption : ''} key={image.id}>
-                  <Image image={image} maxWidth={image.width} outerWrapperClassName={styles.imagesOuterWrapper} className={styles.imagesInnerWrapper}/>
+                <a href={image.url} data-caption={image.caption ? image.caption : ''} key={image.id} >
+                  <Image image={image} maxWidth={image.width} outerWrapperClassName={styles.imagesOuterWrapper} className={styles.imagesInnerWrapper} alt={image.alt}/>
                     {/* <img 
                       src={image.url}
                       alt={image.alt}
