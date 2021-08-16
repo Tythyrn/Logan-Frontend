@@ -1,6 +1,8 @@
 import Layout from '../components/Layout';
 import baguetteBox from '../lib/baguetteBox.js'
-import {getAllProjects, getProjectBySlug} from '../lib/api/slugsApi';
+import { GraphQLClient } from 'graphql-request';
+import { GetAvailableCaseStudies } from "../data/graphql/query-available-case-studies";
+import { GetCaseStudies } from "../data/graphql/query-case-studies";
 import {useEffect} from 'react'
 import Head from 'next/head'
 import CaseStudyHero from '../components/caseStudyHero/CaseStudyHero';
@@ -10,7 +12,9 @@ import CaseStudyGallery from '../components/caseStudyGallery/CaseStudyGallery';
 const Page = ({ caseStudy }) => {
 
   useEffect(() => {
-    baguetteBox.run('.gallery');
+    baguetteBox.run('.gallery', {
+      filter: /.+/i
+    });
   });
 
   return (
@@ -27,18 +31,29 @@ const Page = ({ caseStudy }) => {
 };
 
 export async function getStaticPaths() {
-  const projects = getAllProjects();
+  const endpoint = process.env.GRAPHQL_URL_ENDPOINT;
+
+  const graphQLClient = new GraphQLClient(endpoint, {
+    headers: {
+      authorization: process.env.MY_TOKEN,
+    },
+  })
   const paths = [];
 
-  paths.push(
-    ...projects
-      .filter((project) => project.slug !== null)
-      .map((project) => ({
-        params: {
-          slug: [project.slug],
-        },
-      }))
-  )
+  await graphQLClient
+    .request(GetAvailableCaseStudies)
+    .then((caseStudies) => {
+      paths.push(
+        ...caseStudies.caseStudies
+          .filter((project) => project.slug !== null)
+          .map((project) => ({
+            params: {
+              slug: [project.slug],
+            },
+          }))
+      )
+    })
+    .catch((error) => console.error(error));
 
   return {
     paths,
@@ -46,7 +61,21 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params }) {
-  const caseStudy = getProjectBySlug(params.slug[0]);
+  const endpoint = process.env.GRAPHQL_URL_ENDPOINT;
+
+  const graphQLClient = new GraphQLClient(endpoint, {
+    headers: {
+      authorization: process.env.MY_TOKEN,
+    },
+  })
+
+
+  const temp = await graphQLClient
+    .request(GetCaseStudies, {'slug': params.slug[0]})
+    // .then(data => JSON.parse(data))
+    .catch((error) => console.error(error));
+
+  const caseStudy = temp.caseStudies[0];
    
   return {
     props: { 

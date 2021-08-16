@@ -5,13 +5,13 @@ export default function CaseStudyOverview ({caseStudy}) {
     <section className={styles.projectInformation}>
       <div>
         <h1 className={styles.projecHeader}>{caseStudy.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: caseStudy.overview }}/>
+        <div dangerouslySetInnerHTML={{ __html: caseStudy.overview.html }}/>
       </div>
       <div className={styles.clearfix}>
         {caseStudy.deliverables ? 
           <div className={styles.deliverables}>
             <h2 className={styles.subSectionHeader}>Deliverables</h2>
-            <div dangerouslySetInnerHTML={{ __html: caseStudy.deliverables }}/>
+            <div dangerouslySetInnerHTML={{ __html: caseStudy.deliverables.html }}/>
           </div>
           :
           ''
@@ -19,7 +19,7 @@ export default function CaseStudyOverview ({caseStudy}) {
         {caseStudy.descriptors ?
           <div className={styles.descriptors}>
             <h2 className={styles.subSectionHeader}>Additional Project Information</h2>
-            <div dangerouslySetInnerHTML={{ __html: caseStudy.descriptors }}/>
+            <div dangerouslySetInnerHTML={{ __html: caseStudy.descriptors.html }}/>
           </div>
           :
           ''

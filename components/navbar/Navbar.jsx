@@ -11,7 +11,7 @@ export default function Navbar () {
         <img className={styles.logo} src="/images/nav/logo.png" alt="LSR Creative Logo"></img>
       </Link>
       <div className={styles.menuToggle} onClick={() => setIsActive(!isActive)}>
-        <input type="checkbox" checked={isActive}/>
+        <input type="checkbox" checked={isActive} readOnly/>
         
         <span></span>
         <span></span>
