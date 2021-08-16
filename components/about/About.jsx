@@ -4,7 +4,7 @@ export default function About () {
   return (
     <section className={styles.about}>
       <div className={styles.profile}>
-        <img className={styles.profilePic} src="/images/home/profile.jpg" alt="Logan Rundquist's profile picture"/>
+        <img className={styles.profilePic} src="https://media.graphcms.com/AF6E0emLTP6HxOe4YtQ1" alt="Logan Rundquist's profile picture"/>
       </div>
       <div>
         <h1>About Me</h1>

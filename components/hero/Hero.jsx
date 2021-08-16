@@ -8,6 +8,7 @@ export default function Hero () {
         <hr className={styles.line} />
         <h1 className={styles.heroTitle}>CREATIVE</h1>
       </div>
+      <i className={`fas fa-chevron-down ${styles.chevron}`}></i>
     </section>
   );
 }

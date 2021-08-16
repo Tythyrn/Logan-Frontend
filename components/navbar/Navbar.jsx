@@ -25,7 +25,7 @@ export default function Navbar () {
   return (
     <nav className={styles.nav} role='navigation'>
       <Link href="/">
-        <img style={navbar ? {display: "none"} : {display: "inline-block"} } className={styles.logo} src="/images/nav/logo.png" alt="LSR Creative Logo"></img>
+        <img style={navbar ? {display: "none"} : {display: "inline-block"} } className={styles.logo} src="https://media.graphcms.com/CgvhVPynSkuQrqEuX6dY" alt="LSR Creative Logo"></img>
       </Link>
       <div className={styles.menuToggle} onClick={() => setIsActive(!isActive)}>
         <input type="checkbox" checked={isActive} readOnly/>

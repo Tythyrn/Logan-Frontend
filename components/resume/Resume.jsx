@@ -4,7 +4,7 @@ export default function Resume () {
   return (
     <section className={styles.resume}>
       <h2 className={styles.resumeHeader}>Resume</h2>
-      <a href="/images/home/LSR-Resume.pdf" download="Logan Rundquist Resume"><img className={styles.resumeImg} src="/images/home/resume.jpg" alt="Logan Rundquist's resume"/></a>
+      <a href="https://media.graphcms.com/eBnaJCEHRY2itoWgHcKI" download="Logan Rundquist Resume"><img className={styles.resumeImg} src="https://media.graphcms.com/otkKYBVWRaiNco0SKjaw" alt="Logan Rundquist's resume"/></a>
     </section>
   );
 }
