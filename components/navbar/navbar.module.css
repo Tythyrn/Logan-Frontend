@@ -109,7 +109,8 @@
   padding: 50px;
   padding-top: 125px;
   right: -100px;
-  height: 110vh;
+  height: 120vh;
+  overflow-y: auto;
   
   background: #ededed;
   list-style-type: none;

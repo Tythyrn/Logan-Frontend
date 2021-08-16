@@ -18,6 +18,7 @@ export const GetCaseStudies = gql`
         id,
         title,
         imageSet {
+          handle,
           id,
           url,
           width,
@@ -26,6 +27,7 @@ export const GetCaseStudies = gql`
         }
       },
       heroImage {
+        handle,
         id,
         url,
         width,

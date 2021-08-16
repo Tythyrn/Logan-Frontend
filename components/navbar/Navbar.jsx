@@ -1,14 +1,31 @@
 import Link from 'next/link';
 import styles from './navbar.module.css'
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 export default function Navbar () {
   const [isActive, setIsActive] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  useEffect(() => {
+    function onScroll() {
+      if(window.scrollY >= 95) {
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
+    }
+
+    //adds scroll effect for navbar
+    window.addEventListener("scroll", onScroll);
+    return function unMount() {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
 
   return (
     <nav className={styles.nav} role='navigation'>
       <Link href="/">
-        <img className={styles.logo} src="/images/nav/logo.png" alt="LSR Creative Logo"></img>
+        <img style={navbar ? {display: "none"} : {display: "inline-block"} } className={styles.logo} src="/images/nav/logo.png" alt="LSR Creative Logo"></img>
       </Link>
       <div className={styles.menuToggle} onClick={() => setIsActive(!isActive)}>
         <input type="checkbox" checked={isActive} readOnly/>
