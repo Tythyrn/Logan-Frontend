@@ -1,8 +1,11 @@
+import { AppProps } from 'next/app'
 import '../styles/normalize.css'
 import '../styles/baguetteBox.min.css'
 import '../styles/globals.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-export default function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
+
+export default App;

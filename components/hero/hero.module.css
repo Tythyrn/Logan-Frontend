@@ -2,7 +2,80 @@
 *   Hero   *
 **************/
 
+@keyframes showTopText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animatedTitle {
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+}
+.animatedTitle > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animatedTitle > div div {
+  font-size: 17vw;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animatedTitle > div div span {
+  display: block;
+}
+.animatedTitle > div.textTop {
+  border-bottom: 1vmin solid #fff;
+  top: 0;
+}
+.animatedTitle > div.textTop div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animatedTitle > div.textBottom {
+  bottom: 0;
+}
+.animatedTitle > div.textBottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
 .hero {
+  font-family: "Roboto Slab", serif;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -18,29 +91,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://media.graphcms.com/H35xS37gSciktcHfYpN8');
+  background: url("https://media.graphcms.com/H35xS37gSciktcHfYpN8");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   filter: brightness(80%);
-}
-.heroContent {
-  position: absolute;
-  font-family: "Monserrat", sans-serif;
-  text-align: center;
-  margin: 0.625rem;
-}
-.heroTitle {
-  margin-top: 0;
-  font-size: 17vw;
-  opacity: 0.8;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 0;
-}
-
-.line {
-  border-top: 3px solid #fff;
 }
 
 .chevron {
@@ -48,10 +103,15 @@
   color: #fff;
   font-size: 60px;
   z-index: 5;
+  opacity: 0;
+  animation: fadeIn 0.5s, showBottomText 0.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  transform: translate(0, -100%);
 }
 
 @media screen and (min-width: 768px) {
-  .line {
-    border-top: 8px solid #fff;
+  .chevron {
+    font-size: 100px;
   }
 }

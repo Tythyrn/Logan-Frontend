@@ -1,12 +1,11 @@
 /**************
 *   General   *
 **************/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
 
-*  {
+* {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -18,9 +17,12 @@ body {
 h1,
 h2 {
   color: #ff66c4;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
-p {
+p,
+li,
+small {
   padding: 8px;
+  font-family: "Montserrat", sans-serif;
 }
