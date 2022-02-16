@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
 import Layout from '../components/Layout';
-import Hero from '../components/hero/Hero'
+import Hero from '../components/Hero'
 import About from '../components/About'
 import Resume from '../components/Resume'
 import { GetNavigation } from '../data/graphql/query-navigations';

@@ -25,13 +25,10 @@ const StyledImage = styled(Image)`
   opacity: 1;
   transition: opacity 0.2s ease-in;
 
-  ${props => css`
-
-    &:hover {
-      opacity: 0.6;
-      transition: opacity 0.2s ease-in;
-    }
-  `}
+  &:hover {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in;
+  }
 `
 
 export default function CaseStudyGallery ({caseStudy}) {

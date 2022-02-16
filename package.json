@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
     "@graphcms/react-image": "^1.0.1",
     "graphql": "^15.5.1",
     "graphql-request": "^3.5.0",

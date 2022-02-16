@@ -11,6 +11,7 @@ const StyledFooter = styled.footer`
 const MainFooter = styled.div`
   display: flex;
   justify-content: space-between;
+  padding: 10px;
   
   h2 {
     color: #fff;
@@ -27,7 +28,7 @@ const SubFooter = styled.div`
 const BrandIcons = styled.div`
   margin: auto 0;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 32px;
 
   a {
     color: #fff;
@@ -50,10 +51,10 @@ export default function Footer () {
         </Link>
         <BrandIcons>
             <a href="https://www.linkedin.com/in/logan-rundquist-03130897/" target="_blank" rel="noopener">
-                <i className="fab fa-linkedin-in"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
             </a>
             <a href="https://www.instagram.com/lsr.creative/" target="_blank" rel="noopener">
-                <i className="fab fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
             </a>
         </BrandIcons>
       </MainFooter>

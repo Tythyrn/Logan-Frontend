@@ -19,6 +19,7 @@ const SubSectionHeader = styled.h2`
 const SubSection = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
