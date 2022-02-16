@@ -1,15 +1,17 @@
 import Layout from '../components/Layout';
-import baguetteBox from '../lib/baguetteBox.js'
+import baguetteBox from '../lib/baguetteBox.js';
+import { GetStaticProps, GetStaticPaths } from 'next';
 import { GraphQLClient } from 'graphql-request';
 import { GetAvailableCaseStudies } from "../data/graphql/query-available-case-studies";
 import { GetCaseStudies } from "../data/graphql/query-case-studies";
+import { GetNavigation } from '../data/graphql/query-navigations';
 import {useEffect} from 'react'
 import Head from 'next/head'
-import CaseStudyHero from '../components/caseStudyHero/CaseStudyHero';
-import CaseStudyOverview from '../components/caseStudyOverview/CaseStudyOverview';
+import CaseStudyHero from '../components/CaseStudyHero';
+import CaseStudyOverview from '../components/CaseStudyOverview';
 import CaseStudyGallery from '../components/caseStudyGallery/CaseStudyGallery';
 
-const Page = ({ caseStudy }) => {
+const Page = ({ caseStudy, links }) => {
 
   useEffect(() => {
     baguetteBox.run('.gallery', {
@@ -18,7 +20,7 @@ const Page = ({ caseStudy }) => {
   });
 
   return (
-    <Layout>
+    <Layout links={links}>
       <Head>
         <title>{caseStudy.metaTitle}</title>
         <meta name="description" content={caseStudy.metaDescription}/>
@@ -30,7 +32,7 @@ const Page = ({ caseStudy }) => {
   );
 };
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const endpoint = process.env.GRAPHQL_URL_ENDPOINT;
 
   const graphQLClient = new GraphQLClient(endpoint, {
@@ -60,7 +62,8 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-export async function getStaticProps({ params }) {
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const endpoint = process.env.GRAPHQL_URL_ENDPOINT;
 
   const graphQLClient = new GraphQLClient(endpoint, {
@@ -75,12 +78,19 @@ export async function getStaticProps({ params }) {
     // .then(data => JSON.parse(data))
     .catch((error) => console.error(error));
 
+  const links = await graphQLClient
+    .request(GetNavigation)
+    .then(data => {return data.navigation.links})
+    .catch((error) => console.error(error));
+
   const caseStudy = temp.caseStudies[0];
    
   return {
     props: { 
       caseStudy,
+      links
     },
   };
 }
+
 export default Page;

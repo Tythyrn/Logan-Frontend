@@ -1,9 +1,9 @@
 import Navbar from './navbar/Navbar';
-import Footer from './footer/Footer';
+import Footer from './Footer';
 
-const Layout = ({ children }) => (
+const Layout = ({ children, links }) => (
   <div>
-    <Navbar />
+    <Navbar links={links}/>
     <div>
       {children}
     </div>
