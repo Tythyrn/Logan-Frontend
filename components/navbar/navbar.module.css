@@ -132,11 +132,11 @@
   list-style: none;
 }
 
-.navLinks a {
+.navLinks {
   color: #000;
 }
 
-.navLinks a:hover {
+.navLinks:hover {
   color: #ff66c4;
 }
 

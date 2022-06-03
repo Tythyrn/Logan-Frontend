@@ -33,14 +33,16 @@ const StyledImage = styled(Image)`
 
 export default function CaseStudyGallery ({caseStudy}) {
 
+  console.log(caseStudy.projects);
+
   return (
     <ProjectGallery>
       {caseStudy.projects.map(project => (
         <div key={project.id}>
           {project.title ? <h1>{project.title}</h1> : ''}
-          <Gallery className='gallery'>
+          <Gallery className={project.videos ? '' : 'gallery'}>
             {project.imageSet.map(image => (
-                <a href={image.url} data-caption={image.caption ? image.caption : ''} key={image.id} >
+                <a href={project.videos ? image.link : image.url} data-caption={image.caption ? image.caption : ''} key={image.id} target={project.videos ? '_blank' : '_self'}>
                   <StyledImage image={image} maxWidth={image.width} outerWrapperClassName={styles.imagesOuterWrapper} alt={image.alt}/>
                     {/* <img 
                       src={image.url}

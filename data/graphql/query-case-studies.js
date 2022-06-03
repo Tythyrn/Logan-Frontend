@@ -22,10 +22,12 @@ export const GetCaseStudies = gql`
           caption,
           id,
           url,
+          link,
           width,
           height,
           alt
-        }
+        },
+        videos,
       },
       heroImage {
         handle,
