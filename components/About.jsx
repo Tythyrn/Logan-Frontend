@@ -28,9 +28,8 @@ export default function About () {
       </Profile>
       <div>
         <h1>About Me</h1>
-        <p>Hi there! I'm a graphic and multimedia designer living in Austin, TX. I have a background in studio art, with a BA degree from Baylor University. I love being creative in many different forms of media!</p>
-        <p>I've held many creative jobs since my school days in different industries, but I've settled into print and digital graphic design. Most recently, I went through School of Motion's “Design Bootcamp”, and I've been exploring design for motion graphics.</p>
-        <p>Formerly Logan T. Scandling, I changed my website to reflect my new married name of Rundquist.</p>
+        <p>Hi there! I'm a graphic and multimedia designer living in Austin, TX. I have a background in studio art with a BA degree from Baylor University. I love being creative in many different forms of media!</p>
+        <p>I've held many creative jobs in different industries since my school days, but I've settled into print and digital graphic design; currently working at Texas Service Life Insurance as a graphic designer. I've been exploring design for motion graphics, and I took School of Motion's “Design Bootcamp” in 2020. Most recently I've been learning the drawing app Procreate and look forward to utilizing that in my designs.</p>
         <p><b>Download and view my resume by clicking the image below.</b></p>
       </div>
     </AboutSection>
