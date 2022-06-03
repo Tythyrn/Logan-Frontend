@@ -90,6 +90,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       caseStudy,
       links
     },
+    revalidate: 1800,
   };
 }
 

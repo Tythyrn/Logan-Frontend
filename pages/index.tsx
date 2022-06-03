@@ -39,5 +39,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       links
     },
+    revalidate: 1800,
   };
 }
