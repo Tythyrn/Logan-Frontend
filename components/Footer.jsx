@@ -18,6 +18,10 @@ const MainFooter = styled.div`
   }
 `
 
+const CustomLink = styled(Link)`
+  text-decoration: none;
+`
+
 const SubFooter = styled.div`
   width: 100%;
   text-align: center;
@@ -46,9 +50,9 @@ export default function Footer () {
   return (
     <StyledFooter>
       <MainFooter>
-        <Link href="/">
+        <CustomLink href="/">
             <h2>LSR Creative</h2>
-        </Link>
+        </CustomLink>
         <BrandIcons>
             <a href="https://www.linkedin.com/in/logan-rundquist-03130897/" target="_blank" rel="noopener">
                 <i className="fa-brands fa-linkedin-in"></i>

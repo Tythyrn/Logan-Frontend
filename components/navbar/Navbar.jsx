@@ -42,11 +42,11 @@ export default function Navbar ({links}) {
                 <ul>
                   {link.projects.map((project) => {
                     return (
-                      <Link href={project.projectUrl}><a>
+                      <Link href={project.projectUrl}>
                       <li className={styles.navLinks} onClick={() => setIsActive(!isActive)} key={project.projectName}>
                         {project.projectName}
                       </li>
-                      </a></Link>
+                      </Link>
                     )
                   })}
                 </ul>
