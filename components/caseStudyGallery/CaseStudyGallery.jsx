@@ -32,9 +32,6 @@ const StyledImage = styled(Image)`
 `
 
 export default function CaseStudyGallery ({caseStudy}) {
-
-  console.log(caseStudy.projects);
-
   return (
     <ProjectGallery>
       {caseStudy.projects.map(project => (
