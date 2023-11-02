@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link';
 import styles from './navbar.module.css'
 import {useState, useEffect} from 'react'
@@ -23,9 +25,9 @@ export default function Navbar ({links}) {
   }, []);
 
   return (
-    <nav className={styles.nav} role='navigation'>
+    <nav className="fixed z-10 w-full" role='navigation'>
       <Link href="/">
-        <img style={navbar ? {display: "none"} : {display: "inline-block"} } className={styles.logo} src="https://media.graphcms.com/CgvhVPynSkuQrqEuX6dY" alt="LSR Creative Logo"></img>
+        <img style={navbar ? {display: "none"} : {display: "inline-block"} } className="no-underline cursor-pointer text-white m-0 w-16 md:w-24 inline-block decor" src="https://media.graphcms.com/CgvhVPynSkuQrqEuX6dY" alt="LSR Creative Logo"></img>
       </Link>
       <div className={styles.menuToggle} onClick={() => setIsActive(!isActive)}>
         <input type="checkbox" checked={isActive} readOnly/>
@@ -38,12 +40,12 @@ export default function Navbar ({links}) {
           {links.map((link) => {
             return (
               <li key={link.name}>
-                <h2 className={styles.navHeader}>{link.name}</h2>
+                <h2 className="text-8xl">{link.name}</h2>
                 <ul>
                   {link.projects.map((project) => {
                     return (
                       <Link href={project.projectUrl}>
-                      <li className={styles.navLinks} onClick={() => setIsActive(!isActive)} key={project.projectName}>
+                      <li className="text-lg" onClick={() => setIsActive(!isActive)} key={project.projectName}>
                         {project.projectName}
                       </li>
                       </Link>

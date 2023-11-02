@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import styled from 'styled-components'
-import { useState } from 'react';
 
 const StyledFooter = styled.footer`
   margin-top: 20px;
@@ -44,9 +43,6 @@ const BrandIcons = styled.div`
 `
 
 export default function Footer () {
-
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
-
   return (
     <StyledFooter>
       <MainFooter>
@@ -63,7 +59,7 @@ export default function Footer () {
         </BrandIcons>
       </MainFooter>
       <SubFooter>
-        <small>&copy; Copyright {currentYear}, Logan Rundquist</small>
+        <small>&copy; Copyright {new Date().getFullYear()}, Logan Rundquist</small>
       </SubFooter>
     </StyledFooter>
   );

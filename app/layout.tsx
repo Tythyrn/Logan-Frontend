@@ -1,4 +1,9 @@
 import { Metadata } from "next";
+import { getNavigation } from "@/app/lib/data";
+
+import Navbar from "@/app/ui/Navbar";
+
+import '@/app/ui/globals.css';
 
 export const metadata: Metadata = {
     openGraph: {
@@ -15,14 +20,20 @@ export const metadata: Metadata = {
     }
 }
 
-export default function RootLayout({
+export default async function RootLayout({
     children,
   }: {
     children: React.ReactNode
   }) {
+
+    const links = await getNavigation();
+
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body>
+          <Navbar links={links}/>
+          {children}
+        </body>
       </html>
     )
   }

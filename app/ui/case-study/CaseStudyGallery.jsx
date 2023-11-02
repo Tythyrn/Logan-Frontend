@@ -1,6 +1,5 @@
 import styles from './caseStudyGallery.module.css'
 import styled, {css} from 'styled-components'
-import Image from "@graphcms/react-image";
 
 const ProjectGallery = styled.section`
   text-align: center;
@@ -18,18 +17,18 @@ const Gallery = styled.div`
   grid-gap: 15px;
 `
 
-const StyledImage = styled(Image)`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 1;
-  transition: opacity 0.2s ease-in;
+// const StyledImage = styled(Image)`
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+//   opacity: 1;
+//   transition: opacity 0.2s ease-in;
 
-  &:hover {
-    opacity: 0.6;
-    transition: opacity 0.2s ease-in;
-  }
-`
+//   &:hover {
+//     opacity: 0.6;
+//     transition: opacity 0.2s ease-in;
+//   }
+// `
 
 export default function CaseStudyGallery ({caseStudy}) {
   return (
@@ -40,7 +39,7 @@ export default function CaseStudyGallery ({caseStudy}) {
           <Gallery className={project.videos ? '' : 'gallery'}>
             {project.imageSet.map(image => (
                 <a href={project.videos ? image.link : image.url} data-caption={image.caption ? image.caption : ''} key={image.id} target={project.videos ? '_blank' : '_self'}>
-                  <StyledImage image={image} maxWidth={image.width} outerWrapperClassName={styles.imagesOuterWrapper} alt={image.alt}/>
+                  {/* <StyledImage image={image} maxWidth={image.width} outerWrapperClassName={styles.imagesOuterWrapper} alt={image.alt}/> */}
                     {/* <img 
                       src={image.url}
                       alt={image.alt}

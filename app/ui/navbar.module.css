@@ -2,25 +2,9 @@
 *   Navigation   *
 *****************/
 
-.nav {
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  
-}
-
-.nav a {
+/* .nav a {
   text-decoration: none;
-}
-
-.logo {
-  margin: 0;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
-  color: #fff;
-  width: 100px;
-}
+} */
 
 .menuToggle
 {
@@ -156,10 +140,6 @@
   {
     top: 25px;
     right: 25px;
-  }
-
-  .logo {
-    width: 65px;
   }
 
   .navLinks
