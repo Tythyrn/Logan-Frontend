@@ -50,12 +50,12 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/styles/baguetteBox.min.css" />
           <link rel="stylesheet" href="/styles/globals.css" />
           <script src="https://kit.fontawesome.com/28774f5dc9.js" crossOrigin="anonymous"></script>
-          <meta property="og:title" content="Logan Rundquist Portfolio | LSR Creative" />
+          {/* <meta property="og:title" content="Logan Rundquist Portfolio | LSR Creative" />
           <meta property="og:type" content="website" />
           <meta property="og:description" content="Portfolio website of graphic designer Logan Rundquist" />
           <meta property="og:image" content="https://media.graphcms.com/H35xS37gSciktcHfYpN8" />
           <meta property="og:url" content="https://lsrcreative.art/" />
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:card" content="summary_large_image" /> */}
         </Head>
         <body>
           <Main />

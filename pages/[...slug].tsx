@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../app/ui/home/Layout';
 import baguetteBox from '../lib/baguetteBox.js';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { GraphQLClient } from 'graphql-request';
@@ -7,9 +7,9 @@ import { GetCaseStudies } from "../data/graphql/query-case-studies";
 import { GetNavigation } from '../data/graphql/query-navigations';
 import {useEffect} from 'react'
 import Head from 'next/head'
-import CaseStudyHero from '../components/CaseStudyHero';
-import CaseStudyOverview from '../components/CaseStudyOverview';
-import CaseStudyGallery from '../components/caseStudyGallery/CaseStudyGallery';
+import CaseStudyHero from '../app/ui/case-study/CaseStudyHero';
+import CaseStudyOverview from '../app/ui/case-study/CaseStudyOverview';
+import CaseStudyGallery from '../app/ui/case-study/CaseStudyGallery';
 
 const Page = ({ caseStudy, links }) => {
 

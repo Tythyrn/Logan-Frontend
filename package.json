@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "@graphcms/react-image": "^1.1.0",
+    "eslint-config-next": "^14.0.1",
     "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
-    "next": "^13.1.6",
+    "next": "^14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"

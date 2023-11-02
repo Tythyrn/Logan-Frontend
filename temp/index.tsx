@@ -1,8 +1,8 @@
 import { GetStaticProps } from 'next';
-import Layout from '../components/Layout';
-import Hero from '../components/Hero'
-import About from '../components/About'
-import Resume from '../components/Resume'
+import Layout from '../app/ui/home/Layout';
+import Hero from '../app/ui/home/Hero'
+import About from '../app/ui/home/About'
+import Resume from '../app/ui/home/Resume'
 import { GetNavigation } from '../data/graphql/query-navigations';
 import { GraphQLClient } from 'graphql-request';
 import Head from 'next/head'
